@@ -1,0 +1,111 @@
+!!! 5
+%html(lang="en")
+  %head
+    %meta(charset="utf-8")
+    %meta(http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1")
+    %meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    %title= content_for?(:title) ? yield(:title) : "Pabs2015"
+    = csrf_meta_tags
+    = stylesheet_link_tag "application", :media => "all"
+    = favicon_link_tag 'apple-touch-icon-144x144-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '144x144'
+    = favicon_link_tag 'apple-touch-icon-114x114-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '114x114'
+    = favicon_link_tag 'apple-touch-icon-72x72-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '72x72'
+    = favicon_link_tag 'apple-touch-icon-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png'
+    = favicon_link_tag 'favicon.ico', :rel => 'shortcut icon'
+    = javascript_include_tag "application"
+    / Le HTML5 shim, for IE6-8 support of HTML elements
+    /[if lt IE 9]
+      = javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"
+      = javascript_include_tag "respond.min"
+
+
+
+  %body
+    .navbar.navbar-default.navbar-fixed-top
+      .container
+        %button.navbar-toggle(type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse")
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+        %a.navbar-brand(href=root_path) PABS 2015<p style="color: rgb(180, 180, 180) !important; font-size: 70%;margin-top: -5px;">ABIDJAN</p><p style="margin-top:-60px;font-size:60%;">du 13 au 15 Mai</p>
+        .navbar-collapse.collapse.navbar-responsive-collapse
+          %ul.nav.navbar-nav
+            %li= link_to t('navbar.home'), root_path
+            %li= link_to t('navbar.history'), history_path
+          %ul.nav.navbar-nav.navbar-right
+            -# %li= link_to '<i class="fa fa-envelope"></i>'.html_safe, "#", {:title => t('navbar.contact_us')}
+            %li= link_to t(:locale).upcase, params.merge(locale: t(:locale))
+
+    .container.main-container
+      .row.login-row
+        - unless user_signed_in?
+          = form_for User.new, :url => session_path(:user), :html => {:class => "navbar-form navbar-left"} do |f|
+            .form-group
+              = f.email_field t("activerecord.attributes.user.email"), autofocus: true, :placeholder => t('activerecord.attributes.user.email')
+              = f.password_field :password, autocomplete: "off", :placeholder => t('activerecord.attributes.user.password')
+              = button_tag :type => :submit, :class => "login-button btn btn-sm", :title => t('buttons.login') do
+                = '<i style="color: white;" class="fa fa-arrow-right"></i>'.html_safe
+          %p.pull-left{:style => "margin-top:13px;"}= " or&nbsp;".html_safe
+          .register-link.pull-left= link_to t('buttons.register'), new_user_registration_path
+        - else
+          .logout-button.pull-right= link_to '<i class="fa fa-sign-out"></i> '.html_safe + t('buttons.logout'), destroy_user_session_path, :method => :delete
+      .row.content
+        .col-lg-8
+          = bootstrap_flash
+          = yield
+          %footer
+            .double-bar{:style => "margin: 20px 0 10px 0 !important;text-align: center;"}
+              %span{:class => "fa-stack fa-lg", :style => "margin-top: -21px;"}
+                %i{:class => "fa fa-square fa-stack-2x", :style => "color: white;"}
+                %i{:class => "fa fa-leaf fa-stack-1x", :style => "color: rgb(221, 115, 91);"}
+            %h4.slogan= t("slogan")
+          %br
+        .col-lg-4
+          .well.sidebar-nav
+            %ul.tools.nav.nav-list
+              -# %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(112, 197, 200);font-size:200%;"></i> '.html_safe + t('side_nav.submit_abstract'), "#"
+              %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(112, 197, 200);font-size:200%;"></i> '.html_safe + t('hotel_modal.title'), "", 'data-no-turbolink' => '', :class => "hotel-link"
+              %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(94, 165, 166);font-size:200%;"></i> '.html_safe + t('side_nav.view_the_program'), view_the_program_path
+              %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(76, 133, 135);font-size:200%;"></i> '.html_safe + t('side_nav.reigster_now'), new_user_registration_path
+          .latest-news.panel.panel-default
+            .double-bar
+            %h3{:style => "margin-top: 8px !important;"}= t('latest_news.latest_news')
+            %h5 August 1, 2014
+            %p= t('latest_news.first')
+            .separation
+              %i{:class => "fa fa-square"}
+              %i{:class => "fa fa-square"}
+              %i{:class => "fa fa-square"}
+            %h5 August 1, 2014
+            %p= t('latest_news.second')
+            .separation
+              %i{:class => "fa fa-square"}
+              %i{:class => "fa fa-square"}
+              %i{:class => "fa fa-square"}
+            %h5 August 1, 2014
+            %p= t('latest_news.third')
+            .more-news-button= link_to "[" + t('latest_news.more_news') + "]", "#"
+            .double-bar
+  .modal.fade.hotel-modal
+    .modal-dialog.modal-sm
+      .modal-content
+        .modal-header
+          %button.close{"data-dismiss" => "modal", :type => "button"}
+            %span{"aria-hidden" => "true"} ×
+            %span.sr-only= t("buttons.close")
+          %h4.modal-title= t("hotel_modal.title")
+        .modal-body
+          %p= t("hotel_modal.content").html_safe
+        .modal-footer
+          %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"}= t("buttons.close")
+
+:javascript
+  $( document ).ready(function() {
+    $('.hotel-link').click(function(e) {
+    $('.hotel-modal').modal();
+    //console.log('test');
+    //event.preventDefault();
+    return false;
+    })
+  });
+

@@ -1,0 +1,61 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  navbar:
+    home: "home"
+    congress: "congress"
+    history: "PABS history"
+    membership: "membership"
+    executive: "executive"
+    about_us: "about us"
+    contact_us: "contact us"
+  locale: "fr"
+  locale_action: "Change le language en Français"
+  latest_news:
+    latest_news: "latest news"
+    first: "It's a start, we are finally working on the website of the PABS 2015."
+    second: "No registration free for EMBS undergraduate student (both author or nonauthor) for advanced registration !"
+    third: "A first draft is completed based on Raphael's concept !"
+    more_news: "more news"
+  side_nav:
+    submit_abstract: "submit abstract"
+    view_the_program: "view the program"
+    reigster_now: "register now"
+  buttons:
+    register: "register"
+    login: "log in"
+    logout: "log out"
+  forms:
+    username: "username"
+    password: "password"
+    password_restrictions: "8 characters minimum"
+    submit: "submit"
+  activerecord:
+    attributes:
+      user:
+        email: "email"
+        password: "password"
+        password_confirmation: "password confirmation"
+  hotel_modal:
+    title: "about the hotel"
+    content: "<b>address:</b><br> Hotel du Golf /Abidjan/Riviera 08<br>BP18/Abidjan 18<br><br><b>e-mail:</b> golfhotel@golfhotel.ci.com<br><br><b>phone:</b> + 225 22 43 10 44/45<br><br><b>fax:</b> + 225 22 43 05 44<br><br><b>website:</b> <a href=\"http://www.golfhotel-ci.com\">www.golfhotel-ci.com</a>"
+
