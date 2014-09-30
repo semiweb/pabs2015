@@ -32,7 +32,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem 'font-awesome-less'
+gem 'font-awesome-rails'
 
 gem 'therubyracer', '~> 0.11.4'
 gem "less-rails"
