@@ -34,7 +34,7 @@ end
 
 gem 'font-awesome-less'
 
-gem "therubyracer"
+gem 'therubyracer', '~> 0.11.4'
 gem "less-rails"
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'haml'
