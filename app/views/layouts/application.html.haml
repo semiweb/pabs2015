@@ -27,10 +27,21 @@
           %span.icon-bar
           %span.icon-bar
           %span.icon-bar
-        %a.navbar-brand(href=root_path) PABS 2015<p style="color: rgb(180, 180, 180) !important; font-size: 70%;margin-top: -5px;">ABIDJAN</p><p style="margin-top:-60px;font-size:60%;">du 12 au 15 Mai</p>
+        %a.navbar-brand(href=root_path)
+          = "PABS 2015<p style=\"color: rgb(180, 180, 180) !important; font-size: 70%;margin-top: -5px;\">ABIDJAN</p><p style=\"margin-top:-65px;font-size:60%;\">#{t("navbar.date")}</p>".html_safe
         .navbar-collapse.collapse.navbar-responsive-collapse
           %ul.nav.navbar-nav
             %li= link_to t('navbar.home'), root_path
+            %li.dropdown
+              %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+                = t("navbar.welcome")
+                %i.fa.fa-caret-down
+              %ul.dropdown-menu{:role => "menu"}
+                %li
+                  = link_to t("navbar.pabs_president"), pabs_president_path
+                  = link_to "Brigitte Vilasco", brigitte_vilasco_path
+                  = link_to t("navbar.scientist_committee"), scientist_committee_path
+                  = link_to t("navbar.steering_committee"), steering_committee_path
             %li= link_to t('navbar.history'), history_path
           %ul.nav.navbar-nav.navbar-right
             -# %li= link_to '<i class="fa fa-envelope"></i>'.html_safe, "#", {:title => t('navbar.contact_us')}
@@ -67,25 +78,25 @@
               %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(112, 197, 200);font-size:200%;"></i> '.html_safe + t('hotel_modal.title'), "", 'data-no-turbolink' => '', :class => "hotel-link"
               %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(94, 165, 166);font-size:200%;"></i> '.html_safe + t('side_nav.view_the_program'), view_the_program_path
               %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(76, 133, 135);font-size:200%;"></i> '.html_safe + t('side_nav.reigster_now'), new_user_registration_path
-          .latest-news.panel.panel-default
-            .double-bar
-            %h3{:style => "margin-top: 8px !important;"}= t('latest_news.latest_news')
-            %h5 August 1, 2014
-            %p= t('latest_news.first')
-            .separation
-              %i{:class => "fa fa-square"}
-              %i{:class => "fa fa-square"}
-              %i{:class => "fa fa-square"}
-            %h5 August 1, 2014
-            %p= t('latest_news.second')
-            .separation
-              %i{:class => "fa fa-square"}
-              %i{:class => "fa fa-square"}
-              %i{:class => "fa fa-square"}
-            %h5 August 1, 2014
-            %p= t('latest_news.third')
-            .more-news-button= link_to "[" + t('latest_news.more_news') + "]", "#"
-            .double-bar
+          -# .latest-news.panel.panel-default
+          -#   .double-bar
+          -#   %h3{:style => "margin-top: 8px !important;"}= t('latest_news.latest_news')
+          -#   %h5 August 1, 2014
+          -#   %p= t('latest_news.first')
+          -#   .separation
+          -#     %i{:class => "fa fa-square"}
+          -#     %i{:class => "fa fa-square"}
+          -#     %i{:class => "fa fa-square"}
+          -#   %h5 August 1, 2014
+          -#   %p= t('latest_news.second')
+          -#   .separation
+          -#     %i{:class => "fa fa-square"}
+          -#     %i{:class => "fa fa-square"}
+          -#     %i{:class => "fa fa-square"}
+          -#   %h5 August 1, 2014
+          -#   %p= t('latest_news.third')
+          -#   .more-news-button= link_to "[" + t('latest_news.more_news') + "]", "#"
+          -#   .double-bar
   .modal.fade.hotel-modal
     .modal-dialog.modal-sm
       .modal-content
@@ -95,7 +106,7 @@
             %span.sr-only= t("buttons.close")
           %h4.modal-title= t("hotel_modal.title")
         .modal-body
-          %p= t("hotel_modal.content").html_safe
+          %p= simple_format t("hotel_modal.content")
         .modal-footer
           %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"}= t("buttons.close")
 

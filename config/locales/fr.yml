@@ -1,12 +1,17 @@
 fr:
   navbar:
     home: "accueil"
+    pabs_president: "président de la PABS"
     congress: "congrés"
-    history: "histoire du PABS"
+    history: "histoire de la PABS"
     membership: "les membres"
     executive: "administration"
     about_us: "à propos"
     contact_us: "contactez nous"
+    date: "du 12 au 15 Mai"
+    welcome: "bienvenue"
+    scientist_committee: "comité scientifique"
+    steering_committee: "comité de pilotage"
   main_title: "Bienvenue au PABS 2015, Abidjan"
   introduction: "Ceci est l'introdution pour le PABS en Français."
   locale: "en"
@@ -39,4 +44,15 @@ fr:
         password_confirmation: "mot de passe de confirmation"
   hotel_modal:
     title: "informations sur l'hotel"
-    content: "<b>adresse:</b><br> Hotel du Golf /Abidjan/Riviera 08<br>BP18/Abidjan 18<br><br><b>e-mail:</b> golfhotel@golfhotel.ci.com<br><br><b>telephone:</b> + 225 22 43 10 44/45<br><br><b>fax:</b> + 225 22 43 05 44<br><br><b>site web:</b> <a href=\"http://www.golfhotel-ci.com\">www.golfhotel-ci.com</a>"
+    content: |
+      <b>adresse:</b>
+      Hotel du Golf /Abidjan/Riviera 18
+      BP18/Abidjan 18
+
+      <b>e-mail:</b> golfhotel@golfhotel.ci.com
+
+      <b>telephone:</b> + 225 22 43 10 44/45
+
+      <b>fax:</b> + 225 22 43 05 44
+
+      <b>site web:</b> <a href=\"http://www.golfhotel-ci.com\">www.golfhotel-ci.com</a>

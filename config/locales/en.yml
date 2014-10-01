@@ -22,12 +22,17 @@
 en:
   navbar:
     home: "home"
+    pabs_president: "PABS president"
     congress: "congress"
     history: "PABS history"
     membership: "membership"
     executive: "executive"
     about_us: "about us"
     contact_us: "contact us"
+    date: "12th to 15th of May"
+    welcome: "welcome"
+    scientist_committee: "scientist committee"
+    steering_committee: "steering committee"
   locale: "fr"
   locale_action: "Change le language en Français"
   latest_news:
@@ -57,5 +62,16 @@ en:
         password_confirmation: "password confirmation"
   hotel_modal:
     title: "about the hotel"
-    content: "<b>address:</b><br> Hotel du Golf /Abidjan/Riviera 08<br>BP18/Abidjan 18<br><br><b>e-mail:</b> golfhotel@golfhotel.ci.com<br><br><b>phone:</b> + 225 22 43 10 44/45<br><br><b>fax:</b> + 225 22 43 05 44<br><br><b>website:</b> <a href=\"http://www.golfhotel-ci.com\">www.golfhotel-ci.com</a>"
+    content: |
+      <b>address:</b>
+      Hotel du Golf /Abidjan/Riviera 18
+      BP18/Abidjan 18
+
+      <b>e-mail:</b> golfhotel@golfhotel.ci.com
+
+      <b>phone:</b> + 225 22 43 10 44/45
+
+      <b>fax:</b> + 225 22 43 05 44
+
+      <b>website:</b> <a href=\"http://www.golfhotel-ci.com\">www.golfhotel-ci.com</a>
 

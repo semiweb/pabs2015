@@ -4,6 +4,10 @@ Pabs2015::Application.routes.draw do
   devise_for :users, path: "/", path_names: {sign_in: 'login', sign_up: '', registration: 'register', sign_out: 'logout'}
 
   get 'congress' => 'pages#congress'
+  get 'pabs_president' => 'pages#pabs_president'
+  get 'brigitte_vilasco' => 'pages#brigitte_vilasco'
+  get 'scientist_committee' => 'pages#scientist_committee'
+  get 'steering_committee' => 'pages#steering_committee'
   get 'history' => 'pages#history'
   get 'view_the_program' => 'pages#view_the_program'
 
