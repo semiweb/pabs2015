@@ -52,7 +52,7 @@ en:
       Best regards,
 
       Brigitte Vilasco
-  committee:
+  scientist_committee:
     title: "Dear burn workers colleagues,"
     text: |
       As member of the organizing committee, I have the honor to invite you to participate, as presenters or attendants, in the activities of the sixth PABS congress held in Abidjan, Cote d'Ivoire, from 12 to 15 May 2015.
@@ -64,6 +64,20 @@ en:
       Looking forward to meeting you in Abidjan, please accepted my best,
 
       regards.
+  steering_committee:
+    text1: |
+      The Burn Family is very large, from Cotonou to Lome, from Abidjan to Indore, from Swansea to Toronto, from Ottawa to Montreal, Paris, Cape Town, Lagos, Accra, Abuja, Ouagadougou, Dacca, Kathmandu…
+
+      I could continue for pages and pages, together we are unified with the same will.  To increase the public awareness of the importance of prevention in burns, to stimulate exchange of experience between the developed  North and  the emerging South; the knowledge translation, the standardisation in practice, the support of the research, and promotion of the creation of  an international Burn Registry; coaching and teaching how to have  good governance, be action oriented, and focus on the  local needs.
+
+      I would like to thank those men and women who came on a voluntary basis, collaborated and worked together to reach those noble goals for the last three years.
+
+      To all steering committee members of the West Africa initiatives, Thank you!
+
+      Redouane Bouali
+    text2: |
+      Steering Committee Members:
+      Marie Helene Chomienne, Julie Boulianne, Brigitte Vilasco, Hemou Pitchaki, Jibril Toguyeni, Laura Hawryluck, Amr Moghazy, Shahla Yekta, Charles St-Onge, Niels Ravn?,Filomena?,, Marc Saint-Onge, Marc Jacques Dubois, Fernand Patry, Marie Helene Sainte Hilaire, Maria Colangelo, Leslie Webb.
   view_the_program:
     preliminary_themes: "Preliminary themes of the scientific programme:"
     theme_list:
@@ -75,6 +89,7 @@ en:
       emergency_and_resuscitation: "Emergency and Resuscitation"
       surgeries_and_procedures: "Surgeries and procedures"
       wound_care: "Wound Care"
+      other: "other"
     preliminary_activities: "Preliminary activities of the scientific program:"
     activities_list:
       poster_presentations_and_free_scientific_papers: "Poster presentations and free scientific papers"
