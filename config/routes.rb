@@ -5,8 +5,8 @@ Pabs2015::Application.routes.draw do
 
   get 'congress' => 'pages#congress'
   get 'pabs_president' => 'pages#pabs_president'
-  get 'brigitte_vilasco' => 'pages#brigitte_vilasco'
-  get 'scientist_committee' => 'pages#scientist_committee'
+  get 'organizing_committee' => 'pages#organizing_committee'
+  get 'scientific_committee' => 'pages#scientific_committee'
   get 'steering_committee' => 'pages#steering_committee'
   get 'history' => 'pages#history'
   get 'view_the_program' => 'pages#view_the_program'

@@ -31,8 +31,9 @@ en:
     contact_us: "contact us"
     date: "12th to 15th of May"
     welcome: "welcome"
-    scientist_committee: "scientist committee"
+    scientific_committee: "scientific committee"
     steering_committee: "steering committee"
+    organizing_committee: "organizing committee"
   locale: "fr"
   locale_action: "Change le language en Français"
   latest_news:

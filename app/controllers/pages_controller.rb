@@ -6,10 +6,10 @@ class PagesController < ApplicationController
   def pabs_president
   end
 
-  def brigitte_vilasco
+  def organizing_committee
   end
 
-  def scientist_committee
+  def scientific_committee
   end
 
   def steering_committee
