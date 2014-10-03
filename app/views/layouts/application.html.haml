@@ -78,7 +78,8 @@
               %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(112, 197, 200);font-size:200%;"></i> '.html_safe + t('hotel_modal.title'), "", 'data-no-turbolink' => '', :class => "hotel-link"
               %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(94, 165, 166);font-size:200%;"></i> '.html_safe + t('side_nav.view_the_program'), view_the_program_path
               %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(76, 133, 135);font-size:200%;"></i> '.html_safe + t('side_nav.reigster_now'), new_user_registration_path
-          = image_tag t("logo"), :width => "100%"
+          = image_tag t("logo"), :width => "50%", :class => "pull-left"
+          = image_tag "logoPABS.jpeg", :width => "45%", :class => "pull-right"
           -# .latest-news.panel.panel-default
           -#   .double-bar
           -#   %h3{:style => "margin-top: 8px !important;"}= t('latest_news.latest_news')
