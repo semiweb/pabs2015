@@ -186,3 +186,6 @@ input:focus {
 .hotel-modal .btn-default {
   background-color: rgb(76, 133, 135);
 }
+.portrait {
+  margin: 0 15px 15px 0;
+}

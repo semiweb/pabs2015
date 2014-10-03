@@ -32,7 +32,7 @@ en:
     date: "12th to 15th of May"
     welcome: "welcome"
     scientific_committee: "scientific committee"
-    steering_committee: "steering committee"
+    steering_committee: "Steering Committee"
     organizing_committee: "organizing committee"
   locale: "fr"
   locale_action: "Change le language en Français"
@@ -65,8 +65,8 @@ en:
     title: "about the hotel"
     content: |
       <b>address:</b>
-      Hotel du Golf /Abidjan/Riviera 18
-      BP18/Abidjan 18
+      Hotel du Golf /Abidjan/Riviera 08
+      BP18/Abidjan 08
 
       <b>e-mail:</b> golfhotel@golfhotel.ci.com
 
