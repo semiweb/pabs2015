@@ -11,7 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140923193831) do
+ActiveRecord::Schema.define(version: 20141007154343) do
+
+  create_table "news_items", force: true do |t|
+    t.string   "title"
+    t.datetime "date"
+    t.text     "text"
+    t.integer  "author_id"
+  end
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false

@@ -1,5 +1,11 @@
 class PagesController < ApplicationController
 
+  before_action :set_news_items
+
+  def set_news_items
+    @news_items = NewsItem.get_recents
+  end
+
   def home
   end
 

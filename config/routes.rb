@@ -1,5 +1,6 @@
 Pabs2015::Application.routes.draw do
 
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   root 'pages#home'
   devise_for :users, path: "/", path_names: {sign_in: 'login', sign_up: '', registration: 'register', sign_out: 'logout'}
 

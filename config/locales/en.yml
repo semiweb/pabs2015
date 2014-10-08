@@ -31,9 +31,9 @@ en:
     contact_us: "contact us"
     date: "12th to 15th of May"
     welcome: "welcome"
-    scientific_committee: "scientific committee"
+    scientific_committee: "Scientific Committee"
     steering_committee: "Steering Committee"
-    organizing_committee: "organizing committee"
+    organizing_committee: "Organizing Committee"
   locale: "fr"
   locale_action: "Change le language en Français"
   latest_news:
@@ -43,6 +43,7 @@ en:
     third: "A first draft is completed based on Raphael's concept !"
     more_news: "more news"
   side_nav:
+    visitor_information: "visitor informations"
     submit_abstract: "submit abstract"
     view_the_program: "view the program"
     reigster_now: "register now"
@@ -55,6 +56,7 @@ en:
     password: "password"
     password_restrictions: "8 characters minimum"
     submit: "submit"
+    sign_up: "register"
   activerecord:
     attributes:
       user:

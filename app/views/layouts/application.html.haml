@@ -48,18 +48,19 @@
             %li= link_to t(:locale).upcase, params.merge(locale: t(:locale))
 
     .container.main-container
-      .row.login-row
-        - unless user_signed_in?
-          = form_for User.new, :url => session_path(:user), :html => {:class => "navbar-form navbar-left"} do |f|
-            .form-group
-              = f.email_field t("activerecord.attributes.user.email"), autofocus: true, :placeholder => t('activerecord.attributes.user.email')
-              = f.password_field :password, autocomplete: "off", :placeholder => t('activerecord.attributes.user.password')
-              = button_tag :type => :submit, :class => "login-button btn btn-sm", :title => t('buttons.login') do
-                = '<i style="color: white;" class="fa fa-arrow-right"></i>'.html_safe
-          %p.pull-left{:style => "margin-top:13px;"}= " or&nbsp;".html_safe
-          .register-link.pull-left= link_to t('buttons.register'), new_user_registration_path
-        - else
-          .logout-button.pull-right= link_to '<i class="fa fa-sign-out"></i> '.html_safe + t('buttons.logout'), destroy_user_session_path, :method => :delete
+      - unless controller_name == 'registrations' && action_name == 'new'
+        .row.login-row
+          - unless user_signed_in?
+            = form_for User.new, :url => session_path(:user), :html => {:class => "navbar-form navbar-left"} do |f|
+              .form-group
+                = f.email_field t("activerecord.attributes.user.email"), autofocus: true, :placeholder => t('activerecord.attributes.user.email')
+                = f.password_field :password, autocomplete: "off", :placeholder => t('activerecord.attributes.user.password')
+                = button_tag :type => :submit, :class => "login-button btn btn-sm", :title => t('buttons.login') do
+                  = '<i style="color: white;" class="fa fa-arrow-right"></i>'.html_safe
+            %p.pull-left{:style => "margin-top:13px;"}= " or&nbsp;".html_safe
+            .register-link.pull-left= link_to t('buttons.register'), new_user_registration_path
+          - else
+            .logout-button.pull-right= link_to '<i class="fa fa-sign-out"></i> '.html_safe + t('buttons.logout'), destroy_user_session_path, :method => :delete
       .row.content
         .col-lg-8
           = bootstrap_flash
@@ -75,30 +76,34 @@
           .well.sidebar-nav
             %ul.tools.nav.nav-list
               -# %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(112, 197, 200);font-size:200%;"></i> '.html_safe + t('side_nav.submit_abstract'), "#"
-              %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(112, 197, 200);font-size:200%;"></i> '.html_safe + t('hotel_modal.title'), "", 'data-no-turbolink' => '', :class => "hotel-link"
+              %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(122, 220, 230);font-size:200%;"></i> '.html_safe + t('hotel_modal.title'), "", 'data-no-turbolink' => '', :class => "hotel-link"
+              %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(112, 194, 200);font-size:200%;"></i> '.html_safe + t('side_nav.visitor_information'), ""
               %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(94, 165, 166);font-size:200%;"></i> '.html_safe + t('side_nav.view_the_program'), view_the_program_path
               %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(76, 133, 135);font-size:200%;"></i> '.html_safe + t('side_nav.reigster_now'), new_user_registration_path
-          = image_tag t("logo"), :width => "50%", :class => "pull-left"
-          = image_tag "logoPABS.jpeg", :width => "45%", :class => "pull-right"
-          -# .latest-news.panel.panel-default
-          -#   .double-bar
-          -#   %h3{:style => "margin-top: 8px !important;"}= t('latest_news.latest_news')
-          -#   %h5 August 1, 2014
-          -#   %p= t('latest_news.first')
-          -#   .separation
-          -#     %i{:class => "fa fa-square"}
-          -#     %i{:class => "fa fa-square"}
-          -#     %i{:class => "fa fa-square"}
-          -#   %h5 August 1, 2014
-          -#   %p= t('latest_news.second')
-          -#   .separation
-          -#     %i{:class => "fa fa-square"}
-          -#     %i{:class => "fa fa-square"}
-          -#     %i{:class => "fa fa-square"}
-          -#   %h5 August 1, 2014
-          -#   %p= t('latest_news.third')
-          -#   .more-news-button= link_to "[" + t('latest_news.more_news') + "]", "#"
-          -#   .double-bar
+          .logos
+            = image_tag t("logo"), :width => "50%", :class => "pull-left"
+            = image_tag "logoPABS.jpeg", :width => "45%", :class => "pull-right"
+          -# - if @news_items.present? && @news_items.count > 0
+          -#   .latest-news.panel.panel-default
+          -#     .double-bar
+          -#     %h3{:style => "margin-top: 8px !important;"}= t('latest_news.latest_news')
+          -#     -# - for
+          -#     %h5 August 1, 2014
+          -#     %p= t('latest_news.first')
+          -#     .separation
+          -#       %i{:class => "fa fa-square"}
+          -#       %i{:class => "fa fa-square"}
+          -#       %i{:class => "fa fa-square"}
+          -#     %h5 August 1, 2014
+          -#     %p= t('latest_news.second')
+          -#     .separation
+          -#       %i{:class => "fa fa-square"}
+          -#       %i{:class => "fa fa-square"}
+          -#       %i{:class => "fa fa-square"}
+          -#     %h5 August 1, 2014
+          -#     %p= t('latest_news.third')
+          -#     .more-news-button= link_to "[" + t('latest_news.more_news') + "]", "#"
+          -#     .double-bar
   .modal.fade.hotel-modal
     .modal-dialog.modal-sm
       .modal-content
