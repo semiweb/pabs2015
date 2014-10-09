@@ -29,4 +29,7 @@ class PagesController < ApplicationController
 
   def view_the_program
   end
+
+  def visitor_information
+  end
 end

@@ -11,6 +11,7 @@ Pabs2015::Application.routes.draw do
   get 'steering_committee' => 'pages#steering_committee'
   get 'history' => 'pages#history'
   get 'view_the_program' => 'pages#view_the_program'
+  get 'visitor_information' => 'pages#visitor_information'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
