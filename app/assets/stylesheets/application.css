@@ -189,3 +189,19 @@ input:focus {
 .portrait {
   margin: 0 15px 15px 0;
 }
+
+.abidjan-map p {
+  width: 400px;
+  float: right;
+}
+
+.food img {
+  width: 24%;
+}
+.shopping img {
+  width: 24%;
+}
+
+.cultes1 img, .cultes2 img {
+  width: 30%;
+}
