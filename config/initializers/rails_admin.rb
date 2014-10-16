@@ -9,7 +9,9 @@ RailsAdmin.config do |config|
   config.current_user_method(&:current_user)
 
   config.authorize_with do |controller|
-    redirect_to main_app.root_path
+    if !current_user.present? || !current_user.is_admin
+      redirect_to main_app.root_path
+    end
   end
 
   ## == Cancan ==

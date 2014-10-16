@@ -1,0 +1,5 @@
+%h1= t("abstract.new_title")
+- form_for Abstract.new, :as => :abstract, :url => abstracts_path do |f|
+  = f.text_field :title
+  = f.text_area :text
+  = f.submit

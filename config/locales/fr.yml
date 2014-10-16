@@ -60,3 +60,5 @@ fr:
 
       <b>site web:</b> <a href="http://www.golfhotel-ci.com">www.golfhotel-ci.com</a>
   logo: "Logos afr2 .jpg"
+  abstract:
+    new_title: "soumettre un abstract"

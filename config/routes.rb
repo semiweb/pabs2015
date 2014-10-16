@@ -12,6 +12,9 @@ Pabs2015::Application.routes.draw do
   get 'history' => 'pages#history'
   get 'view_the_program' => 'pages#view_the_program'
   get 'visitor_information' => 'pages#visitor_information'
+  get 'more_news' => 'pages#more_news'
+
+  resources :abstracts
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

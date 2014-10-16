@@ -32,4 +32,7 @@ class PagesController < ApplicationController
 
   def visitor_information
   end
+
+  def more_news
+  end
 end

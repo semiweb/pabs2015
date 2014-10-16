@@ -83,27 +83,20 @@
           .logos
             = image_tag t("logo"), :width => "50%", :class => "pull-left"
             = image_tag "logoPABS.jpeg", :width => "45%", :class => "pull-right"
-          -# - if @news_items.present? && @news_items.count > 0
-          -#   .latest-news.panel.panel-default
-          -#     .double-bar
-          -#     %h3{:style => "margin-top: 8px !important;"}= t('latest_news.latest_news')
-          -#     -# - for
-          -#     %h5 August 1, 2014
-          -#     %p= t('latest_news.first')
-          -#     .separation
-          -#       %i{:class => "fa fa-square"}
-          -#       %i{:class => "fa fa-square"}
-          -#       %i{:class => "fa fa-square"}
-          -#     %h5 August 1, 2014
-          -#     %p= t('latest_news.second')
-          -#     .separation
-          -#       %i{:class => "fa fa-square"}
-          -#       %i{:class => "fa fa-square"}
-          -#       %i{:class => "fa fa-square"}
-          -#     %h5 August 1, 2014
-          -#     %p= t('latest_news.third')
-          -#     .more-news-button= link_to "[" + t('latest_news.more_news') + "]", "#"
-          -#     .double-bar
+          - if @news_items.present? && @news_items.count > 0
+            .latest-news.panel.panel-default
+              .double-bar
+              %h3{:style => "margin-top: 8px !important;"}= t('latest_news.latest_news')
+              - @news_items.each do |news_item|
+                %h5= t news_item.date.to_s(:short)
+                %p= news_item.text
+                - if news_item != @news_items.last
+                  .separation
+                    %i{:class => "fa fa-square"}
+                    %i{:class => "fa fa-square"}
+                    %i{:class => "fa fa-square"}
+              .more-news-button= link_to "[" + t('latest_news.more_news') + "]", more_news_path
+              .double-bar
   .modal.fade.hotel-modal
     .modal-dialog.modal-sm
       .modal-content

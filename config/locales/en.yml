@@ -78,5 +78,7 @@ en:
 
       <b>website:</b> <a href="http://www.golfhotel-ci.com">www.golfhotel-ci.com</a>
   logo: "Logos afr1 .jpg"
+  abstract:
+    new_title: "submit an abstract"
 
 
