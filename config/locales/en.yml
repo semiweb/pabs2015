@@ -57,12 +57,31 @@ en:
     password_restrictions: "8 characters minimum"
     submit: "submit"
     sign_up: "register"
+    status_list: 
+      doctor: "doctor"
+      nurse: "nurse"
+      health_proffessionnal: "health proffessionnal"
+      other: "other"
+    country_type_list:
+      emergent: "emergent"
+      developed: "developed"
+    language_list:
+      en: "english"
+      fr: "french"
   activerecord:
     attributes:
       user:
         email: "email"
         password: "password"
         password_confirmation: "password confirmation"
+        street: "street"
+        city: "city"
+        region: "region"
+        country: "country"
+        phone_number: "phone number"
+        status: "status"
+        country_type: "country status"
+        language: "language"
   hotel_modal:
     title: "about the hotel"
     content: |

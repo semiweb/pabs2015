@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141016205747) do
+ActiveRecord::Schema.define(version: 20141020163041) do
 
   create_table "abstracts", force: true do |t|
     t.text    "text",       limit: 450
@@ -20,6 +20,11 @@ ActiveRecord::Schema.define(version: 20141016205747) do
     t.string  "category"
     t.integer "address_id"
     t.integer "author_id"
+    t.string  "street"
+    t.string  "region"
+    t.string  "zip_code"
+    t.string  "city"
+    t.string  "country"
   end
 
   create_table "addresses", force: true do |t|
@@ -53,6 +58,15 @@ ActiveRecord::Schema.define(version: 20141016205747) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "is_admin",               default: false
+    t.string   "street"
+    t.string   "region"
+    t.string   "zip_code"
+    t.string   "city"
+    t.string   "country"
+    t.string   "phone_number"
+    t.string   "status"
+    t.string   "country_type"
+    t.string   "language"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

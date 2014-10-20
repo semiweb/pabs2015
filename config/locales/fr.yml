@@ -39,12 +39,31 @@ fr:
     password_restrictions: "8 charactères minimum"
     submit: "valider"
     sign_up: "s'enregistrer"
+    status_list:
+      doctor: "médecin"
+      nurse: "infirmière"
+      health_proffessionnal: "proffessionnel de la santé"
+      other: "autre"
+    country_type_list:
+      emergent: "émergent"
+      developed: "developé"
+    language_list:
+      en: "anglais"
+      fr: "français"
   activerecord:
     attributes:
       user:
         email: "email"
         password: "mot de passe"
         password_confirmation: "mot de passe de confirmation"
+        street: "rue"
+        city: "ville"
+        region: "region"
+        country: "pays"
+        phone_number: "numéro de téléphone"
+        status: "status"
+        country_type: "pays"
+        language: "language"
   hotel_modal:
     title: "informations sur l'hôtel"
     content: |

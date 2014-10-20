@@ -4,6 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   before_action :set_locale
+  before_action :configure_permitted_parameters, if: :devise_controller?
 
   def set_locale
     I18n.locale = params[:locale] || I18n.default_locale
@@ -11,5 +12,19 @@ class ApplicationController < ActionController::Base
 
   def default_url_options(options={})
     { locale: I18n.locale }
+  end
+
+  protected
+
+  def configure_permitted_parameters
+    devise_parameter_sanitizer.for(:sign_up) << :street
+    devise_parameter_sanitizer.for(:sign_up) << :city
+    devise_parameter_sanitizer.for(:sign_up) << :zip_code
+    devise_parameter_sanitizer.for(:sign_up) << :region
+    devise_parameter_sanitizer.for(:sign_up) << :country
+    devise_parameter_sanitizer.for(:sign_up) << :phone_number
+    devise_parameter_sanitizer.for(:sign_up) << :status
+    devise_parameter_sanitizer.for(:sign_up) << :country_type
+    devise_parameter_sanitizer.for(:sign_up) << :language    
   end
 end

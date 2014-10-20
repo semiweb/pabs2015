@@ -15,6 +15,7 @@ Pabs2015::Application.routes.draw do
   get 'more_news' => 'pages#more_news'
 
   resources :abstracts
+  resources :addresses
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
