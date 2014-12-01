@@ -64,6 +64,17 @@ fr:
         status: "status"
         country_type: "pays"
         language: "language"
+      abstract:
+        title: Titre
+        text: Texte
+        authors: Auteurs
+        street: Rue
+        region: Région
+        zip_code: Code postal (ZIP)
+        city: Ville
+        country: Pays
+        name: Nom
+        category: Catégorie
   hotel_modal:
     title: "informations sur l'hôtel"
     content: |
