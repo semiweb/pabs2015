@@ -65,16 +65,17 @@ fr:
         country_type: "pays"
         language: "language"
       abstract:
-        title: Titre
-        text: Texte
         authors: Auteurs
-        street: Rue
-        region: Région
-        zip_code: Code postal (ZIP)
+        category: Catégorie
+        text: Texte
+        title: Titre
+      address:
         city: Ville
         country: Pays
         name: Nom
-        category: Catégorie
+        region: Région
+        street: Rue
+        zip_code: Code postal (ZIP)
   hotel_modal:
     title: "informations sur l'hôtel"
     content: |
