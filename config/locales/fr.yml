@@ -81,3 +81,8 @@ fr:
   logo: "Logos afr2 .jpg"
   abstract:
     new_title: "soumettre un abstract"
+
+  user_mailer:
+    registration_confirmation:
+      title: "Inscription confirmée sur Pabs2015.org"
+      content: "Votre inscription sur le site internet pabs2015.org a bien été enrigstrée dans notre système.<br/>Vous pouvez profiter dès maintenant du site en visitant le lien suivant : %{link}."

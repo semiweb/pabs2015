@@ -100,4 +100,7 @@ en:
   abstract:
     new_title: "submit an abstract"
 
-
+  user_mailer:
+    registration_confirmation:
+      title: "Registration completed on Pabs2015.org"
+      content: "Your registration on pabs2015.org was successful.<br/>You can now visit the website: %{link}."

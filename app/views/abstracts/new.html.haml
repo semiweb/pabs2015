@@ -1,23 +1,23 @@
-%h1= t("abstract.new_title")
+%h1= t('abstract.new_title')
 - abstract = Abstract.new
-= form_for abstract, :url => {:action => "create"} do |f|
+= form_for abstract, :url => {:action => 'create'} do |f|
   %div
     = f.label :title
     %br
-    = f.text_field :title, autofocus: true, class: "form-control"
+    = f.text_field :title, autofocus: true, class: 'form-control'
   %div
     = f.label :text
     %br
-    = f.text_area :text, :style => "width:100%;height:300px;"
+    = f.text_area :text, :style => 'width:100%;height:300px;'
   %div
     = f.label :authors
     %br
-    = f.text_field :authors, class: "form-control"
-  = form_for Address.new, :url => {:action => "create"} do |ff|
+    = f.text_field :authors, class: 'form-control'
+  = form_for Address.new, :url => {:action => 'create'} do |ff|
     %div
       = ff.label :street
       %br
-      = ff.text_field :street, class: "form-control"
+      = ff.text_field :street, class: 'form-control'
     %div
       = ff.label :region
       %br
@@ -42,8 +42,8 @@
   %div
     = f.label :category
     %br
-    - grouped_options = grouped_options_for_select([[t("view_the_program.preliminary_themes"), [[t("view_the_program.theme_list.epidemiology_of_burns_in_africa_and_around_the_world"), 'epidemiology_of_burns_in_africa_and_around_the_world'], [t("view_the_program.theme_list.end_of_life_palliative_care_and_spirituality"), 'end_of_life_palliative_care_and_spirituality'], [t("view_the_program.theme_list.rehabilitation"), 'rehabilitation'], [t("view_the_program.theme_list.wound_care"), 'wound_care'], [t("view_the_program.theme_list.other"), 'other']]], [t("view_the_program.preliminary_activities"), [[t("view_the_program.activities_list.poster_presentations"), "poster_presentations"], [t("view_the_program.activities_list.essential_burn_care_course"), 'essential_burn_care_course'], [t("view_the_program.activities_list.oral_presentations"), 'oral_presentations']]]])
-    = select_tag :abstract_category, grouped_options, :class => "form-control"
-  = f.hidden_field :author_id, :value => current_user.id
+    - grouped_options = grouped_options_for_select([[t('view_the_program.preliminary_themes'), [[t('view_the_program.theme_list.epidemiology_of_burns_in_africa_and_around_the_world'), 'epidemiology_of_burns_in_africa_and_around_the_world'], [t('view_the_program.theme_list.end_of_life_palliative_care_and_spirituality'), 'end_of_life_palliative_care_and_spirituality'], [t('view_the_program.theme_list.rehabilitation'), 'rehabilitation'], [t('view_the_program.theme_list.wound_care'), 'wound_care'], [t('view_the_program.theme_list.other'), 'other']]], [t('view_the_program.preliminary_activities'), [[t('view_the_program.activities_list.poster_presentations'), 'poster_presentations'], [t('view_the_program.activities_list.essential_burn_care_course'), 'essential_burn_care_course'], [t('view_the_program.activities_list.oral_presentations'), 'oral_presentations']]]])
+    = select_tag :abstract_category, grouped_options, :class => 'form-control'
   %div
-    = f.submit t("forms.submit"), {:class => "btn btn-default"}
+    = f.hidden_field :author_id, :value => current_user.try(:id)
+    = f.submit t('forms.submit'), {:class => 'btn btn-default'}
