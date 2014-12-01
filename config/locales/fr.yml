@@ -69,6 +69,11 @@ fr:
         category: Catégorie
         text: Texte
         title: Titre
+        city: Ville
+        country: Pays
+        region: Région
+        street: Rue
+        zip_code: Code postal (ZIP)
       address:
         city: Ville
         country: Pays
@@ -76,6 +81,9 @@ fr:
         region: Région
         street: Rue
         zip_code: Code postal (ZIP)
+    errors:
+      messages:
+        blank: "ne peut pas être vide."
   hotel_modal:
     title: "informations sur l'hôtel"
     content: |
@@ -93,6 +101,8 @@ fr:
   logo: "Logos afr2 .jpg"
   abstract:
     new_title: "soumettre un abstract"
+    successful_creation: "Opération effectuée avec succès"
+    text_max_size: "Maximum 200 mots. Veuillez inclure l'objectif/background, la méthodologie, les résultats, la conclusion."
 
   user_mailer:
     registration_confirmation:

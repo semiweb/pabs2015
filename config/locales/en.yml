@@ -60,7 +60,7 @@ en:
     status_list: 
       doctor: "doctor"
       nurse: "nurse"
-      health_proffessionnal: "health proffessionnal"
+      health_proffessionnal: "health professionnal"
       other: "other"
     country_type_list:
       emergent: "emergent"
@@ -99,6 +99,8 @@ en:
   logo: "Logos afr1 .jpg"
   abstract:
     new_title: "submit an abstract"
+    successful_creation: "Abstract successfully created"
+    text_max_size: "Maximum 200 words, approximately 1 page. Please include aim/background, methodology, results, conclusion."
 
   user_mailer:
     registration_confirmation:
