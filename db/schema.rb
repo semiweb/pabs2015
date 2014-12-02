@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141020163041) do
+ActiveRecord::Schema.define(version: 20141202151054) do
 
   create_table "abstracts", force: true do |t|
     t.text    "text",       limit: 450
@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(version: 20141020163041) do
     t.string  "country"
     t.string  "name"
     t.integer "parent_id"
+    t.string  "parent_type"
   end
 
   create_table "news_items", force: true do |t|

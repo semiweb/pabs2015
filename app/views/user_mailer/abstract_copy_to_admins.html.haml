@@ -1,0 +1,15 @@
+- attributes = @abstract.attributes.except( *%w(id created_at updated_at author_id address_id) ).keys.sort!
+
+%h2= 'An abstract has been submitted on Pabs2015.org'
+
+%p= 'A new abstract has been recorded in the PABS2015 website. Here are the details about this abstract:'
+
+%table{ border: 0, style: 'border-collapse:collapse; border:none; margin:5px;' }
+  - if @abstract.author.present?
+    %tr
+      %th{ style: 'padding:5px; border:1px solid gray;' }= Abstract.human_attribute_name :author_id
+      %td{ style: 'padding:5px; border:1px solid gray;' }= @abstract.author.email
+  - attributes.each do |attr|
+    %tr
+      %th{ style: 'padding:5px; border:1px solid gray;' }= Abstract.human_attribute_name attr
+      %td{ style: 'padding:5px; border:1px solid gray;' }= @abstract[attr]
