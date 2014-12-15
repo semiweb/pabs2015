@@ -82,6 +82,9 @@ en:
     text_max_size: "Maximum 200 words, approximately 1 page. Please include aim/background, methodology, results, conclusion."
 
   user_mailer:
+    registration_notification:
+      title: 'New registration on Pabs2015.org'
+      content: "A new user has been created on Pabs2015.org. The email address he used is: %{email}"
     registration_confirmation:
       title: "Registration completed on Pabs2015.org"
       content: "Your registration on pabs2015.org was successful.<br/>You can now visit the website: %{link}."

@@ -1,0 +1,3 @@
+%h2= t('user_mailer.registration_notification.title')
+
+%div= t('user_mailer.registration_notification.content', email: @user.email).html_safe

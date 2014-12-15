@@ -7,8 +7,20 @@ class UserMailer < ActionMailer::Base
   end
 
 
+  def registration_notification_to_admins(user)
+    @user       = user
+    I18n.locale = 'en'
+    mail(from: 'lwebb@semiweb.ca', to: default_email, subject: t('user_mailer.registration_notification.title'))
+  end
+
+
   def abstract_copy_to_admins(abstract)
     @abstract = abstract
-    mail(from: abstract.author.try(:email) || 'noreply@semiweb.ca', to: 'lwebb@semiweb.ca', title: 'New abstract on Pabs2015')
+    mail(from: abstract.author.try(:email) || 'noreply@semiweb.ca', to: default_email, title: 'New abstract on Pabs2015')
+  end
+
+
+  def default_email
+    Rails.env.production? ? 'lwebb@semiweb.ca' : 'matthieu.beauche@semiweb.ca'
   end
 end

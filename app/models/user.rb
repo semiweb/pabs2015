@@ -11,5 +11,6 @@ class User < ActiveRecord::Base
 
   def send_registration_confirmation_email
     UserMailer.registration_confirmation(self).deliver
+    UserMailer.registration_notification_to_admins(self).deliver
   end
 end
