@@ -3,14 +3,14 @@ class UserMailer < ActionMailer::Base
   def registration_confirmation(user)
     @user       = user
     I18n.locale = @user.language || 'en'
-    mail(from: 'lwebb@semiweb.ca', to: user.email, subject: t('user_mailer.registration_confirmation.title'))
+    mail(from: 'leslie@semiweb.ca', to: user.email, subject: t('user_mailer.registration_confirmation.title'))
   end
 
 
   def registration_notification_to_admins(user)
     @user       = user
     I18n.locale = 'en'
-    mail(from: 'lwebb@semiweb.ca', to: default_email, subject: t('user_mailer.registration_notification.title'))
+    mail(from: 'leslie@semiweb.ca', to: default_email, subject: t('user_mailer.registration_notification.title'))
   end
 
 
@@ -21,6 +21,6 @@ class UserMailer < ActionMailer::Base
 
 
   def default_email
-    Rails.env.production? ? 'lwebb@semiweb.ca' : 'matthieu.beauche@semiweb.ca'
+    Rails.env.production? ? 'leslie@semiweb.ca' : 'matthieu.beauche@semiweb.ca'
   end
 end
