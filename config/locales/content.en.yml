@@ -181,4 +181,32 @@ en:
     title13: "TIME"
     text15: |
       Abidjan is at the Greenwich Mean Time (GMT).
-
+  registration_fees:
+    congress:
+      title: Congress
+      lis:
+        - Badge to attend works & some social activities
+        - Documents of the Congress
+        - 4 Lunches & Coffee breaks (12 -15 May)
+        - Certificates of attendance & presentation
+        - Attendance to EBC course on 4th day
+      table:
+        early: Early
+        late: Late
+        local_participants: Local & african participants
+        foreign_participants: Foreign participants
+        physicians: Physicians
+        students: Students & nurses
+    ebc_courses:
+      title: EBC Course (For all)
+      lis:
+        - Attendance to the InterBurns EBC course only
+        - Lunch & 2 Coffee breaks on Wednesday May 15th
+        - Issuance of the training Diploma
+      text1: "<strong>EARLY:</strong> 25 000 XOF # 48,00 USD # 38,00 EUR "
+      text2: "<strong>LATE:</strong> 35 000 XOF # 66.00USD #53,00 EUR"
+    exhibition_stands:
+      title: Exhibition stands
+      silver: Silver
+      gold: Gold
+      platinium: Platinium

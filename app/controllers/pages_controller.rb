@@ -35,4 +35,7 @@ class PagesController < ApplicationController
 
   def more_news
   end
+
+  def registration_fees
+  end
 end

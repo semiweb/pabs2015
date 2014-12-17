@@ -207,3 +207,32 @@ fr:
     title13: "FUSEAU HORAIRE"
     text15: |
       L’heure d’Abidjan est  celle de Greenwich (GMT).
+  registration_fees:
+    congress:
+      title: Congrès
+      lis:
+        - Badge pour participation aux  travaux & certaines activités sociales
+        - Documents du Congrès
+        - 4 Déjeuners & Pauses café (12-15 mai)
+        - Attestations de présence et Certificats de présentation
+        - Participation au cours du 15 Mai
+      table:
+        early: Précoces
+        late: Tardives
+        local_participants: Locaux & africains
+        foreign_participants: Non africains
+        physicians: Médecins
+        students: Non médecins
+    ebc_courses:
+      title: Cours de InterBurn seulement (tarifs uniques)
+      lis:
+        - Participation au seul cours (EBC) d’Interburns
+        - Déjeuner & 2 pauses café du vendredi 15 Mai
+        - Délivrance du Diplôme de formation
+      text1: "<strong>PRÉCOCES:</strong> 25 000 XOF # 48,00 USD # 38,00 EUR "
+      text2: "<strong>TARDIVES:</strong> 35 000 XOF # 66.00USD #53,00 EUR"
+    exhibition_stands:
+      title: TODO TRANSLATE 'EXHIBITION STANDS'
+      silver: Argent
+      gold: Or
+      platinium: Platine

@@ -13,6 +13,7 @@ Pabs2015::Application.routes.draw do
   get 'view_the_program' => 'pages#view_the_program'
   get 'visitor_information' => 'pages#visitor_information'
   get 'more_news' => 'pages#more_news'
+  get 'registration_fees' => 'pages#registration_fees'
 
   resources :abstracts
   resources :addresses

@@ -1,0 +1,80 @@
+%h2= t('registration_fees.congress.title')
+%ul
+  - t('registration_fees.congress.lis').each do |li_content|
+    %li= li_content
+
+%table.styled{ border: 1 }
+  %tr
+    %th{ colspan: 2 }= t('registration_fees.congress.table.early')
+    %th{ colspan: 2 }= t('registration_fees.congress.table.late')
+  %tr
+    %th{ colspan: 4 }= t('registration_fees.congress.table.local_participants')
+  %tr
+    %th= t('registration_fees.congress.table.physicians')
+    %th= t('registration_fees.congress.table.students')
+    %th= t('registration_fees.congress.table.physicians')
+    %th= t('registration_fees.congress.table.students')
+  %tr
+    %td= '95 000,00 XOF # 183 USD # 145 EUR'
+    %td= '70 000,00 XOF # 135 USD # 107 EUR'
+    %td= '120 000,00 XOF # 231 USD # 183 EUR'
+    %td= '90 000,00 XOF # 173 USD # 137 EUR'
+  %tr
+    %th{ colspan: 4 }= t('registration_fees.congress.table.foreign_participants')
+  %tr
+    %th= t('registration_fees.congress.table.physicians')
+    %th= t('registration_fees.congress.table.students')
+    %th= t('registration_fees.congress.table.physicians')
+    %th= t('registration_fees.congress.table.students')
+  %tr
+    %td= '200 000,00 XOF # 384 USD # 304 EUR'
+    %td= '90 000,00 XOF # 173 USD # 137 EUR'
+    %td= '250 000,00 XOF # 480,00 USD # 380,00 EUR'
+    %td= '120 000,00 XOF # 231 USD # 183 EUR'
+
+
+%h2= t('registration_fees.ebc_courses.title')
+%p
+  = t('registration_fees.ebc_courses.text1').html_safe
+  %br
+  = t('registration_fees.ebc_courses.text2').html_safe
+%ul
+  - t('registration_fees.ebc_courses.lis').each do |li_content|
+    %li= li_content
+
+%h2= t('registration_fees.exhibition_stands.title')
+
+%table.styled{ border: 1 }
+  %tr
+    %th
+    %th= 'XOF'
+    %th= 'USD'
+    %th= 'EUR'
+  %tr
+    %th= t('registration_fees.exhibition_stands.silver')
+    %td.righted= '500 000,00'
+    %td.righted= '960,00'
+    %td.righted= '760,00'
+  %tr
+    %th= t('registration_fees.exhibition_stands.gold')
+    %td.righted= '750 000,00'
+    %td.righted= '1 440,00'
+    %td.righted= '1 140,00'
+  %tr
+    %th= t('registration_fees.exhibition_stands.platinium')
+    %td.righted= '≥ 1 000 000,00'
+    %td.righted= '1 920,00'
+    %td.righted= '1 520,00'
+
+
+:css
+  table.styled {
+    width: 99%;
+  }
+  table.styled td, table.styled th {
+    padding: 3px;
+    text-align: center;
+  }
+  table.styled td.righted {
+    text-align: right;
+  }
