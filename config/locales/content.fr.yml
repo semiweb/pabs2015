@@ -232,7 +232,7 @@ fr:
       text1: "<strong>PRÉCOCES:</strong> 25 000 XOF # 48,00 USD # 38,00 EUR "
       text2: "<strong>TARDIVES:</strong> 35 000 XOF # 66.00USD #53,00 EUR"
     exhibition_stands:
-      title: TODO TRANSLATE 'EXHIBITION STANDS'
+      title: Stand d'exposition
       silver: Argent
       gold: Or
       platinium: Platine
