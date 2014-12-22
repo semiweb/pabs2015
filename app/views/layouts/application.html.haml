@@ -80,7 +80,7 @@
               %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(112, 194, 200);font-size:180%;vertical-align:middle;"></i> '.html_safe + t('side_nav.visitor_information'), visitor_information_path
               %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(94, 165, 166);font-size:180%;vertical-align:middle;"></i> '.html_safe + t('side_nav.view_the_program'), view_the_program_path
               %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(76, 133, 135);font-size:180%;vertical-align:middle;"></i> '.html_safe + t('side_nav.submit_abstract'), new_abstract_path
-              -#%li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(76, 133, 135);font-size:180%;vertical-align:middle;"></i> '.html_safe + t('side_nav.registration_fees'), registration_fees_path
+              %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(76, 133, 135);font-size:180%;vertical-align:middle;"></i> '.html_safe + t('side_nav.registration_fees'), registration_fees_path
               - if current_user.blank?
                 %li= link_to '<i class="fa fa-square fa-lg" style="color:rgb(70, 125, 130);font-size:180%;vertical-align:middle;"></i> '.html_safe + t('side_nav.reigster_now'), new_user_registration_path
           .logos

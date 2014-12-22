@@ -22,10 +22,10 @@ en:
     third: "A first draft is completed based on Raphael's concept !"
     more_news: "more news"
   side_nav:
-    visitor_information: "visitor information"
-    registration_fees: 'Registration fees'
-    submit_abstract: "submit abstract"
-    view_the_program: "view the program"
+    visitor_information: 'visitor information'
+    registration_fees: 'registration fees'
+    submit_abstract: 'submit abstract'
+    view_the_program: 'view the program'
     reigster_now: "register now"
   buttons:
     register: "register"
