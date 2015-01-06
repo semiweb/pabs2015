@@ -34,25 +34,14 @@
 
 
 %h2= t('registration_fees.ebc_courses.title')
+%p= t('registration_fees.ebc_courses.text').html_safe
 %ul
   - t('registration_fees.ebc_courses.lis').each do |li_content|
     %li= li_content
-%table.styled{ border: 1 }
-  %tr
-    %th
-    %th= 'XOF'
-    %th= '$ USD'
-    %th= '€ EUR'
-  %tr
-    %th= t('registration_fees.congress.table.early')
-    %td= '25 000'
-    %td= '48'
-    %td= '38'
-  %tr
-    %th= t('registration_fees.congress.table.late')
-    %td= '35 000'
-    %td= '66'
-    %td= '53'
+%p
+  = t('registration_fees.ebc_courses.text1').html_safe
+  %br
+  = t('registration_fees.ebc_courses.text2').html_safe
 
 
 %h2= t('registration_fees.exhibition_stands.title')

@@ -146,7 +146,7 @@ en:
     title7: "LANGUAGE"
     text9: |
       Côte d’Ivoire has many ethnic groups that explain the diversity of dialects but the official language of the country is French, spoken by more than 95% of the population.
-      <b>As the congress of the PABS will held  for the first time in a French speaking West African country, the organizing committee will ensure that all works be presented in French & in English</b>. To achieve all translations <b>it's imperative that the abstracts, texts and slides of   lectures and communications arrive to the scientific committee within the specified time limit</b>.
+      <b>As the congress of the PABS will held for the first time in a French speaking West African country, the organizing committee will ensure that all works be presented in French & in English</b>. To achieve all translations <b>it's imperative that the abstracts, texts and slides of   lectures and communications arrive to the scientific committee within the specified time limit</b>.
     title8: "PASSPORT & VISA INFORMATION"
     text10: |
       All visitors to Côte d’Ivoire, except those from the 15 countries members of ECOWAS (Bénin, Bukina Faso, Cap Vert, Côte d’Ivoire, Gambie, Ghana, Guinée, Guinée Bissau, Libéria, Mali, Niger, Nigeria, Sénégal, Togo) and those from the following countries: Centrafrique, Congo Brazzaville, Mauritanie, Maroc, Seychelles, Sierra Leone, Tchad, et Tunisie (non exhaustive listing, to be verified), must have valid passport and visa.
@@ -198,13 +198,21 @@ en:
         physicians: Physicians
         students: Students & nurses
     ebc_courses:
-      title: EBC Course (For all)
+      title: "ISBI Course – Caring for Burn-Injured Patients in Resource Restricted Countries: Beyond 48 Hours"
+      text: |
+        Members of the International Society of Burn Injuries (ISBI) have identified the need for continuing education concerning the fundamentals of burn care and rehabilitation. In response, this course was developed for those who practice in resource restricted countries with an emphasis on rehabilitation for both pediatric and adult burn-injured patients.
+        <br/>Intended Audience: Members of the international burn care team.
+        <br/>Course Objectives:
+        <br/>1) Discuss the fundamental principles of burn care important to the rehabilitative phase of recovery.
+        <br/>2) Discuss topics related to nursing, rehabilitation therapy, respiratory care, pain management, and the nutritional care of the burn-injured patient.
+        <br/>3) Discuss practice differences related to the care of patients at the extremes of age (pediatric and older patient).
+        <br/>4) Discuss and practice splinting, patient positioning, scar management, exercise, dressing application, and techniques designed to prevent wound infection and contracture formation.
       lis:
-        - Attendance to the InterBurns EBC course only
-        - Lunch & 2 Coffee breaks on Wednesday May 15th
+        - Attendance to the ISBI course only
+        - Lunch & 2 Coffee breaks on Tuesday, May 12th
         - Issuance of the training Diploma
-      text1: "<strong>EARLY:</strong> 25 000 XOF # 48,00 USD # 38,00 EUR "
-      text2: "<strong>LATE:</strong> 35 000 XOF # 66.00 USD # 53,00 EUR"
+      text1: "<strong>EARLY:</strong> 15 000 XOF # 25.00 USD # 20.00 EUR "
+      text2: "<strong>LATE:</strong> 18 000 XOF # 30.00 USD # 25.00 EUR"
     exhibition_stands:
       title: Exhibition stands
       silver: Silver

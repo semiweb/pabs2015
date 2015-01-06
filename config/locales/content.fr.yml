@@ -211,7 +211,7 @@ fr:
     congress:
       title: Congrès
       lis:
-        - Badge pour participation aux  travaux & certaines activités sociales
+        - Badge pour participation aux travaux & certaines activités sociales
         - Documents du Congrès
         - 4 Déjeuners & Pauses café (12-15 mai)
         - Attestations de présence et Certificats de présentation
@@ -224,13 +224,21 @@ fr:
         physicians: Médecins
         students: Non médecins
     ebc_courses:
-      title: Cours de InterBurn seulement (tarifs uniques)
+      title: Cours de ISBI – Delà des premières 48 heures (tarifs uniques)
+      text: |
+        Tous les membres de l'ISBI ont identifié la necessité d'avoir une formation continue dans le prise en charge fondamentale du Grand Brulé et de sa réhabilitation, en reponse à ce besoin ce cours a été developpé pour ceux qui pratiquent dans les pays à resources limitées, avec une attention particulière à la réhabilitation pédiatrique et chez les adultes.
+        <br/>Audience ciblée: Les membres des équipes internationales prenant en charge les Grands Brûlés.
+        <br/>Les objectifs du cours:
+        <br/>1) Discuter l’importance des principes fondamentaux de la prise en charge du Grand Brûlé jusqu'à la phase de réhabilitation et de guérison.
+        <br/>2) Discuter les topiques généraux relatifs aux soins du Grand Brûlé, les soins infirmiers,  la réhabilitation (Physio et Ergo Thérapie), l’Inhalothérapie, la gestion de la douleur, la nutrition.
+        <br/>3) Discussion sur les différences dans la pratique des soins aux Grands Brûlés dans les âges extremes (enfants versus personnes agées).
+        <br/>4) Discussion et exercices pratiques comme la fabrique et installation d’attelles, des pansements, de la prevention des infections et des contractures.
       lis:
-        - Participation au seul cours (EBC) d’Interburns
-        - Déjeuner & 2 pauses café du vendredi 15 Mai
+        - Participation au seul cours (ISBI)
+        - Déjeuner & 2 pauses café du mardi 12 Mai
         - Délivrance du Diplôme de formation
-      text1: "<strong>PRÉCOCES:</strong> 25 000 XOF # 48,00 USD # 38,00 EUR "
-      text2: "<strong>TARDIVES:</strong> 35 000 XOF # 66.00 USD # 53,00 EUR"
+      text1: "<strong>PRÉCOCES:</strong> 15 000 XOF # 25.00 USD # 20.00 EUR "
+      text2: "<strong>TARDIVES:</strong> 18 000 XOF # 30.00 USD # 25.00 EUR"
     exhibition_stands:
       title: Stand d'exposition
       silver: Argent
