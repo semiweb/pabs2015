@@ -13,204 +13,234 @@
  *= require_tree
  */
 
-
 /*
  *= require bootstrap_and_overrides
  */
 
 /* Your stylesheets goes here... */
 html, body {
-  height: 100%;
+    height: 100%;
 }
+
 .content b {
-  color: rgb(76, 133, 135);
+    color: rgb(76, 133, 135);
 }
+
 .content {
-  background-color: white;
+    background-color: white;
 }
 
 .navbar-brand {
-  text-align: right;
-  font-family: 'Nova Slim', cursive !important;
+    text-align: right;
+    font-family: 'Nova Slim', cursive !important;
 }
+
 .main-container {
-  background: white;
-  min-height: 100%;
-  padding-top: 50px;
+    background: white;
+    min-height: 100%;
+    padding-top: 50px;
 }
+
 .navbar {
-  margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .navbar .nav li, body p {
-  font-weight: 300;
+    font-weight: 300;
 }
 
 .navbar .nav li a {
     border-left: 1px solid rgb(85, 85, 85);
     border-right: 1px solid rgba(0, 0, 0, .1);
 }
+
 .navbar .nav li:first-child a {
     border-left: 0;
     border-radius: 3px 0 0 3px;
 }
+
 .navbar .nav li:last-child a {
     border-right: 0;
     border-radius: 0 3px 3px 0;
 }
 
 .login-row {
-  height: 50px;
-  background-color: rgb(243, 243, 243);
-  border-bottom: 2px solid rgb(233, 233, 233);
+    height: 50px;
+    background-color: rgb(243, 243, 243);
+    border-bottom: 2px solid rgb(233, 233, 233);
 }
+
 .login-row .form-group {
-  margin-top: 5px;
+    margin-top: 5px;
 }
 
 input[type="text"], input[type="email"], input[type="password"] {
-  border-top: none !important;
-  border-left: none !important;
-  border-right: none !important;
-  border-bottom: 1px solid rgb(178, 217, 206);
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  background-color: transparent;
-  font-weight: 300;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(178, 217, 206);
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: transparent;
+    font-weight: 300;
 }
+
 textarea {
-  border-color: rgb(178, 217, 206);
-  border-radius: 5px;
+    border-color: rgb(178, 217, 206);
+    border-radius: 5px;
 }
+
 input:focus {
-  outline: 0;
+    outline: 0;
 }
 
 .login-button {
-  margin-top: -7px;
-  padding: 0 6px 0 6px !important;
-  background-color: rgb(103, 177, 148);
-  font-size:120% !important;
+    margin-top: -7px;
+    padding: 0 6px 0 6px !important;
+    background-color: rgb(103, 177, 148);
+    font-size: 120% !important;
 }
 
 .logout-button {
-  padding: 14px;
+    padding: 14px;
 }
+
 .logout-button a:link, .logout-button a {
-  color: rgb(155, 155, 155);
-  vertical-align: middle;
+    color: rgb(155, 155, 155);
+    vertical-align: middle;
 }
 
 .sidebar-nav {
-  border: none !important;
-  background-color: transparent !important;
-  padding: 0 !important;
-  margin-bottom: 15px !important;
+    border: none !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+    margin-bottom: 15px !important;
 }
 
 .tools a:link, .tools a {
-  color: rgb(67, 77, 88) !important;
+    color: rgb(67, 77, 88) !important;
 }
+
 .tools li {
-  border-bottom: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(200, 200, 200);
 }
 
 .latest-news {
-  padding: 10px;
-  border: none !important;
-  margin-top: 10px;
+    padding: 10px;
+    border: none !important;
+    margin-top: 10px;
 }
+
 .latest-news h3 {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 .latest-news h5 {
-  color: rgb(94, 165, 166);
-  font-family: 'Rosario', sans-serif;
+    color: rgb(94, 165, 166);
+    font-family: 'Rosario', sans-serif;
 }
 
 .double-bar {
-  border-top: 1px solid rgb(221, 221, 221);
-  border-bottom: 1px solid rgb(221, 221, 221);
-  height: 3px;
-  border-left: none;
-  border-right: none;
-  margin: 0 !important;
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    height: 3px;
+    border-left: none;
+    border-right: none;
+    margin: 0 !important;
 }
 
 .register-link {
-  margin-top: 13px;
+    margin-top: 13px;
 }
 
 .separation {
-  margin-left: 25px;
-  font-size: 70%;
+    margin-left: 25px;
+    font-size: 70%;
 }
+
 .separation i.fa {
-  margin-right: 7px;
+    margin-right: 7px;
 }
+
 .separation i.fa:first-child {
-  color: rgb(112, 197, 200);
+    color: rgb(112, 197, 200);
 }
+
 .separation i.fa:nth-child(2) {
-  color: rgb(94, 165, 166);
+    color: rgb(94, 165, 166);
 }
+
 .separation i.fa:last-child {
-  color: rgb(76, 133, 135);
+    color: rgb(76, 133, 135);
 }
 
 .more-news-button {
-  margin-top: 20px;
-  text-align: right;
-  margin-bottom: 5px;
+    margin-top: 20px;
+    text-align: right;
+    margin-bottom: 5px;
 }
 
 .new_user input {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .list-group .list-group-item {
-  border-left: none !important;
-  border-right: none !important;
+    border-left: none !important;
+    border-right: none !important;
 }
+
 .list-group .list-group-item:first-child {
-  border-top: none !important;
+    border-top: none !important;
 }
+
 .list-group .list-group-item:last-child {
-  border-bottom: none !important;
+    border-bottom: none !important;
 }
 
 .alert {
-  margin-top: 10px;
-  border: none !important;
+    margin-top: 10px;
+    border: none !important;
 }
+
 .slogan {
-  color: rgb(76, 133, 135);
-  text-align: center;
-  margin-top: 20px;
+    color: rgb(76, 133, 135);
+    text-align: center;
+    margin-top: 20px;
 }
+
 .hotel-modal .btn-default {
-  background-color: rgb(76, 133, 135);
+    background-color: rgb(76, 133, 135);
 }
+
 .portrait {
-  margin: 0 15px 15px 0;
+    margin: 0 15px 15px 0;
 }
 
 .abidjan-map p {
-  width: 400px;
-  float: right;
+    width: 400px;
+    float: right;
 }
 
 .food img {
-  width: 24%;
+    width: 24%;
 }
+
 .shopping img {
-  width: 24%;
+    width: 24%;
 }
 
 .cultes1 img, .cultes2 img {
-  width: 30%;
+    width: 30%;
 }
 
 .logos {
-  display: inline-block;
+    display: inline-block;
+}
+
+.field_with_errors input {
+    border: 1px solid #970e16;
+}
+
+.field_with_errors label {
+    color: #970e16;
 }

@@ -1,3 +1,16 @@
 %h2= t('user_mailer.registration_notification.title')
 
 %div= t('user_mailer.registration_notification.content', email: @user.email).html_safe
+
+%br
+
+%table{ border: 1, cellpadding: 3, cellspacing: 2 }
+  %caption{ style: 'font-weight: bold;' }= t('user_mailer.registration_notification.user_description')
+  %tbody
+    %tr
+      %th= 'Attribute'
+      %th= 'Value'
+    - @user.attributes.with_indifferent_access.except(:id, :updated_at, :encrypted_password, :reset_password_token, :reset_password_sent_at, :remember_created_at).each do |attr, value|
+      %tr
+        %th= User.human_attribute_name attr
+        %td= value

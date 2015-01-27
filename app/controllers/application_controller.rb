@@ -25,6 +25,10 @@ class ApplicationController < ActionController::Base
     devise_parameter_sanitizer.for(:sign_up) << :phone_number
     devise_parameter_sanitizer.for(:sign_up) << :status
     devise_parameter_sanitizer.for(:sign_up) << :country_type
-    devise_parameter_sanitizer.for(:sign_up) << :language    
+    devise_parameter_sanitizer.for(:sign_up) << :language
+    devise_parameter_sanitizer.for(:sign_up) << :first_name
+    devise_parameter_sanitizer.for(:sign_up) << :last_name
+    devise_parameter_sanitizer.for(:sign_up) << :attend_to_ebc
+    devise_parameter_sanitizer.for(:sign_up) << :attend_to_isbi
   end
 end

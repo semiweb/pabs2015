@@ -16,6 +16,14 @@
     %br
     = f.password_field :password_confirmation, autocomplete: 'off'
   %div
+    = f.label :first_name
+    %br
+    = f.text_field :first_name
+  %div
+    = f.label :last_name
+    %br
+    = f.text_field :last_name
+  %div
     = f.label :street
     %br
     = f.text_field :street, :class => 'form-control'
@@ -40,15 +48,24 @@
     %br
     = f.text_field :phone_number
   %div
+    = f.label :attend_to_courses
+    %br
+    = f.check_box :attend_to_ebc
+    = f.label :attend_to_ebc, style: 'font-weight: normal;'
+    %br
+    = f.check_box :attend_to_isbi
+    = f.label :attend_to_isbi, style: 'font-weight: normal;'
+  %div
     = f.label :status
     %br
-    = f.select :status, options_for_select([[t('forms.status_list.doctor'), 'doctor'], [t('forms.status_list.nurse'), 'nurse'], [t('forms.status_list.health_proffessionnal'), 'health_proffessionnal'], [t('forms.status_list.other'), 'other']]), { :include_blank => true }, :class => 'form-control'
+    = f.select :status, options_for_select([[t('forms.status_list.doctor'), 'doctor'], [t('forms.status_list.nurse'), 'nurse'], [t('forms.status_list.health_proffessionnal'), 'health_proffessionnal'], [t('forms.status_list.other'), 'other']]), {}, :class => 'form-control'
   %div
     = f.label :country_type
     %br
-    = f.select :country_type, options_for_select([[t('forms.country_type_list.emergent'), 'emergent'], [t('forms.country_type_list.developed'), 'developed']]), { :include_blank => true }, :class => 'form-control'
+    = f.select :country_type, options_for_select([[t('forms.country_type_list.emergent'), 'emergent'], [t('forms.country_type_list.developed'), 'developed']]), {}, :class => 'form-control'
   %div
     = f.label :language
     %br
     = f.select :language, options_for_select([[t('forms.language_list.fr'), 'fr'], [t('forms.language_list.en'), 'en']]), {}, :class => 'form-control'
+  %br
   %div= f.submit t('forms.submit'), {:class => 'btn btn-default'}

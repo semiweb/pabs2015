@@ -62,6 +62,11 @@ en:
         status: "status"
         country_type: "country status"
         language: "language"
+        first_name: 'first name'
+        last_name: 'last name'
+        attend_to_courses: 'Attend to courses:'
+        attend_to_ebc: 'EBC Interburns course'
+        attend_to_isbi: 'ISBI course'
   hotel_modal:
     title: "about the hotel"
     content: |
@@ -86,6 +91,7 @@ en:
     registration_notification:
       title: 'New registration on Pabs2015.org'
       content: "A new user has been created on Pabs2015.org. The email address he used is: %{email}"
+      user_description: 'User description'
     registration_confirmation:
       title: "Registration completed on Pabs2015.org"
       content: "Your registration on pabs2015.org was successful.<br/>You can now visit the website: %{link}."

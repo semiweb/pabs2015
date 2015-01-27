@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141202151054) do
+ActiveRecord::Schema.define(version: 20150127151754) do
 
   create_table "abstracts", force: true do |t|
     t.text    "text",       limit: 450
@@ -68,6 +68,10 @@ ActiveRecord::Schema.define(version: 20141202151054) do
     t.string   "status"
     t.string   "country_type"
     t.string   "language"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.boolean  "attend_to_isbi"
+    t.boolean  "attend_to_ebc"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

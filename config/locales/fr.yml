@@ -65,6 +65,11 @@ fr:
         status: "status"
         country_type: "pays"
         language: "language"
+        first_name: 'prénom'
+        last_name: 'nom'
+        attend_to_courses: 'présent pour les cours :'
+        attend_to_ebc: 'présent pour EBC Interburns ?'
+        attend_to_isbi: 'présent pour le cours ISBI ?'
       abstract:
         authors: Auteurs
         category: Catégorie
