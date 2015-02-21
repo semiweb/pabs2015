@@ -90,7 +90,10 @@ en:
     activities_list:
       poster_presentations: "Poster presentations"
       oral_presentations: "Oral presentations"
-      essential_burn_care_course: "Essential Burn Care Course (entire day on Day 4, in collaboration with Interburns)"
+      essential_burn_care_course: "Interburns – Essential Burn Course"
+      essential_burn_care_course_text: "The Interburns EBC course has been specifically created by an experienced multidisciplinary team of burns care experts to cater for the needs of those working in a low resource environment. It provides a comprehensive overview of the essential management of burns, concentrating on getting good outcomes in survivable burns through affordable and  effective means.
+                                        <br/>It is highly contextualised and delivered using a mix of presentations, small group discussions, role play exercises and skills stations. There is a strong emphasis on how to put knowledge into action and how to overcome the barriers to implementing good burn care and includes sessions on communication, leadership and a practical approach to quality improvement. Participants will learn about prevention, wound assessment, initial management, nursing care, surgical management, basic rehabilitation including positioning and splinting and  psychosocial care as well as developing the skills to put what they have learnt into practice. It has been designed as part of a fully integrated approach to transforming burn care developed by Interburns including  consensus standards for burns services, Basic, Essential and Advanced burn care educational and training programs, dedicated training centres and a quality improvement strategy incorporating all aspects of burn care and prevention. It is open to medical doctors, nurses and therapists.
+                                        <br/>Space is limited to a maximum of 50 participants. Register soon. Please visit <a href='www.interburns.org'>www.Interburns.org</a> for further information."
     alert_info: "Click here to submit your Abstract after December 1, 2014"
   history:
     title: "Brief history of the Pan African Burn Society"
@@ -189,7 +192,7 @@ en:
         - Documents of the Congress
         - 4 Lunches & Coffee breaks (12 -15 May)
         - Certificates of attendance & presentation
-        - Attendance to EBC course on 4th day
+        - ISBI Course Beyond 48 Hours and Interburns Essential BUrn Care (limited number of Participants)
       table:
         early: Early
         late: Late
@@ -216,3 +219,15 @@ en:
       silver: Silver
       gold: Gold
       platinium: Platinium
+    banking_informations:
+      title: 'Banking information'
+      subtitle: 'Please remit registration fees to:'
+      address_value: 'ECOBANK COTE D’IVOIRE<br/>01 BP 4107 Abidjan 01 – tél : 225 20 31 92 00'
+      wicket_code: Wicket Code
+      bank_code: Bank Code
+      account_number: Account Number
+      key_code: Key Code
+      iban: Numéro IBAN
+      address: Address
+      swift_code: Swift Code
+      account_name: Account Name

@@ -33,13 +33,6 @@
     %td= '120 000 XOF<br/>$ 225 USD<br/>€ 180 EUR'.html_safe
 
 
-%h2= t('registration_fees.ebc_courses.title')
-%p= t('registration_fees.ebc_courses.text').html_safe
-%ul
-  - t('registration_fees.ebc_courses.lis').each do |li_content|
-    %li= li_content
-
-
 %h2= t('registration_fees.exhibition_stands.title')
 
 %table.styled{ border: 1 }
@@ -64,6 +57,35 @@
     %td.righted= '1 920'
     %td.righted= '1 520'
 
+
+%h2= t('registration_fees.banking_informations.title')
+%p= t('registration_fees.banking_informations.subtitle')
+
+%table.styled{ border: 1 }
+  %tr
+    %th= t('registration_fees.banking_informations.bank_code')
+    %td CI059
+  %tr
+    %th= t('registration_fees.banking_informations.wicket_code')
+    %td 01037
+  %tr
+    %th= t('registration_fees.banking_informations.account_number')
+    %td 141231078801
+  %tr
+    %th= t('registration_fees.banking_informations.key_code')
+    %td 67
+  %tr
+    %th= t('registration_fees.banking_informations.account_name')
+    %td FONDATION PHŒNIX
+  %tr
+    %th= t('registration_fees.banking_informations.iban')
+    %td CI93 CI05 9010 3714 1231 0788 01671
+  %tr
+    %th= t('registration_fees.banking_informations.address')
+    %td= t('registration_fees.banking_informations.address_value').html_safe
+  %tr
+    %th= t('registration_fees.banking_informations.swift_code')
+    %td ECOCCIAB
 
 :css
   table.styled {

@@ -1,17 +1,20 @@
-%h2= t("view_the_program.preliminary_themes").html_safe
+%h2= t('view_the_program.preliminary_themes').html_safe
 .list-group
-  = link_to t("view_the_program.theme_list.epidemiology_of_burns_in_africa_and_around_the_world").html_safe + "<span class=\"badge\">0</span>".html_safe, "#", :class => "list-group-item"
-  = link_to t("view_the_program.theme_list.end_of_life_palliative_care_and_spirituality").html_safe + "<span class=\"badge\">0</span>".html_safe, "#", :class => "list-group-item"
-  = link_to t("view_the_program.theme_list.rehabilitation").html_safe + "<span class=\"badge\">0</span>".html_safe, "#", :class => "list-group-item"
-  = link_to t("view_the_program.theme_list.wound_care").html_safe + "<span class=\"badge\">0</span>".html_safe, "#", :class => "list-group-item"
-  = link_to t("view_the_program.theme_list.other").html_safe + "<span class=\"badge\">0</span>".html_safe, "#", :class => "list-group-item"
+  = link_to t('view_the_program.theme_list.epidemiology_of_burns_in_africa_and_around_the_world').html_safe + "<span class=\"badge\">0</span>".html_safe, '#', :class => 'list-group-item'
+  = link_to t('view_the_program.theme_list.end_of_life_palliative_care_and_spirituality').html_safe + "<span class=\"badge\">0</span>".html_safe, '#', :class => 'list-group-item'
+  = link_to t('view_the_program.theme_list.rehabilitation').html_safe + "<span class=\"badge\">0</span>".html_safe, '#', :class => 'list-group-item'
+  = link_to t('view_the_program.theme_list.wound_care').html_safe + "<span class=\"badge\">0</span>".html_safe, '#', :class => 'list-group-item'
+  = link_to t('view_the_program.theme_list.other').html_safe + "<span class=\"badge\">0</span>".html_safe, '#', :class => 'list-group-item'
 
-%h2= t("view_the_program.preliminary_activities").html_safe
+%h2= t('view_the_program.preliminary_activities').html_safe
 .list-group
-  = link_to t("view_the_program.activities_list.poster_presentations").html_safe + "<span class=\"badge\">0</span>".html_safe, "#", :class => "list-group-item"
-  = link_to t("view_the_program.activities_list.essential_burn_care_course").html_safe + "<span class=\"badge\">0</span>".html_safe, "#", :class => "list-group-item"
-  = link_to t("view_the_program.activities_list.oral_presentations").html_safe + "<span class=\"badge\">0</span>".html_safe, "#", :class => "list-group-item"
+  = link_to t('view_the_program.activities_list.poster_presentations').html_safe + "<span class=\"badge\">0</span>".html_safe, '#', :class => 'list-group-item'
+  = link_to t('view_the_program.activities_list.essential_burn_care_course').html_safe + "<span class=\"badge\">0</span>".html_safe, '#', :class => 'list-group-item'
+  %p{ style: 'text-align:justify;' }= t('view_the_program.activities_list.essential_burn_care_course_text').html_safe
+  = link_to t('registration_fees.ebc_courses.title').html_safe + "<span class=\"badge\">0</span>".html_safe, '#', :class => 'list-group-item'
+  %p{ style: 'text-align:justify;' }= t('registration_fees.ebc_courses.text').html_safe
+  = link_to t('view_the_program.activities_list.oral_presentations').html_safe + "<span class=\"badge\">0</span>".html_safe, '#', :class => 'list-group-item'
 - if Date.today < Date.new(2014, 12, 1)
-  = link_to t("view_the_program.alert_info").html_safe, new_abstract_path, :class => "btn btn-info btn-lg btn-block disabled"
+  = link_to t('view_the_program.alert_info').html_safe, new_abstract_path, :class => 'btn btn-info btn-lg btn-block disabled'
 - else
-  = link_to t("view_the_program.alert_info").html_safe, new_abstract_path, :class => "btn btn-info btn-lg btn-block"
+  = link_to t('view_the_program.alert_info').html_safe, new_abstract_path, :class => 'btn btn-info btn-lg btn-block'

@@ -98,7 +98,20 @@ fr:
     activities_list:
       poster_presentations: "Presentations d’affichées sur les thèmes et libres"
       oral_presentations: "Présentations orales"
-      essential_burn_care_course: "Journée de formation en collaboration avec Interburns, sur les soins essentiels aux brûlés  (4ème jour du Congrès)"
+      essential_burn_care_course: "Interburns – Soins de brûlure essentielle (Maximum de 50 participants - Inscrivez-vous)"
+      essential_burn_care_course_text: "Le cours sur les soins essentiels aux brûlés de INTERBURNS, a été spécialement créé par une équipe  multidisciplinaire d’experts chevronnés dans les soins des brûlures afin de répondre aux besoins des praticiens qui exercent dans un environnement où les ressources et moyens sont faibles.
+                                        Il donne un aperçu complet de la prise en charge essentielle dans le but  d'obtenir, par des moyens abordables et efficaces, une évolution favorable des brûlés qui ont une chance de survie.</br>
+                                        Il est clairement structuré et conçu pour être dispensé au moyen d’exposés, de discussions par petits groupes, d’exercices de jeux de rôle et de mises en situation d’évaluation des compétences.</br>
+                                        Une attention particulière est portée sur la mise en pratique des connaissances et sur la maîtrise des obstacles qui entravent la réalisation de soins de qualité pour les brûlés ; le cours comprend des sessions sur la communication, le leadership et sur une approche efficace pour rehausser la qualité.
+                                        Les participants seront instruits sur la prévention, l’évaluation des plaies, la prise en charge initiale, les soins infirmiers, la prise en charge chirurgicale, la réhabilitation de base comprenant le positionnement, la contention et la prise en charge psychosociale, élargissant ainsi leur niveau de compétence afin de pouvoir mettre en pratique ce qu'ils auront appris.
+                                        Interburns l’a conçu dans le cadre d'une approche pleinement intégrée pour  transformer  les  soins aux brûlés en  respectant les normes consensuelles :
+                                        <br/>- des standards des services de brûlés,
+                                        <br/>- des programmes d’éducation et de formation en soins de base, soins essentiels et soins avancées,
+                                        <br/>- des Centres dédiés à la Formation
+                                        <br/>et selon une stratégie d'amélioration de la qualité intégrant :
+                                        <br/>- tous les aspects des soins aux  brûlés et
+                                        <br/>- la prévention.
+                                        <br/>Ce cours est ouvert aux médecins et infirmièr(e)s de toutes les spécialités, qui sont en charge de brûlés (voir aussi : <a href='www.interburns.org'>www.interburns.org</a>)"
     alert_info: "Cliquez ici pour soumettre vos Abstract après le 1er décembre 2014"
   history:
     title: "Bref historique de la Société Panafricaine des Brûlures"
@@ -215,7 +228,7 @@ fr:
         - Documents du Congrès
         - 4 Déjeuners & Pauses café (12-15 mai)
         - Attestations de présence et Certificats de présentation
-        - Participation au cours du 15 Mai
+        - Participation au cours du Interburns "Soins de brûlure essentielle" et ISBI "Delà des premières 48 heures"
       table:
         early: Précoces
         late: Tardives
@@ -242,3 +255,15 @@ fr:
       silver: Argent
       gold: Or
       platinium: Platine
+    banking_informations:
+      title: 'Informations bancaires'
+      subtitle: "S'il vous plaît verser les frais d'inscription à :"
+      address_value: 'DOMICILIATION ECOBANK COTE D’IVOIRE<br/>01 BP 4107 Abidjan 01 – tél : 225 20 31 92 00'
+      wicket_code: Code guichet
+      bank_code: Code banque
+      account_number: Numéro de compte
+      key_code: Clé rib
+      iban: Numéro IBAN
+      address: Domiciliation
+      swift_code: Code Swift
+      account_name: Nom du compte

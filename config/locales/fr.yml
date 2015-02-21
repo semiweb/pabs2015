@@ -91,22 +91,46 @@ fr:
       messages:
         blank: "ne peut pas être vide."
   hotel_modal:
-    title: "informations sur l'hôtel"
+    title: "Hébergement"
     content: |
-      <b>adresse:</b>
-      Hotel du Golf /Abidjan/Riviera 08
-      BP18/Abidjan 08
+      <b>HEDEN GOLF HOTEL (LIEU DU CONGRES)</b>
+      Chambres supérieures + petits-déjeuners (tarifs  TTC consentis jusqu’à la date du congrès)
+      Simple             XOF  80 000     USD  140.00             EUR  125,00
+      Double            XOF  89 000     USD  155.00             EUR  140,00
+      Réservations & informations complémentaires :
+      <b>Téléphone:</b> +225 22 43 74 00
+      <b>E-mail :</b>  resagolf@iroko.ci  or hedengolfhotel@iroko.ci
+      <b>Copies obligatoires:</b>  leslie@semiweb.ca  &  congrespabs2015@gmail.com
+      <b>Site web:</b> <a href="www.hedengolfhotel.com">www.hedengolfhotel.com</a>
 
-      <b>e-mail:</b> golfhotel@golfhotel.ci.com
+      <hr/>
 
-      <b>telephone:</b> + 225 22 43 10 44/45
+      <b>HOTEL HORIZON</b>
+      <b>Avant le 30 Avril 2015 (Tarifs TTC)</b>
+      <b>Chambres + petits-déjeuners</b>
+      Standard (simple / double)      XOF 40 000     USD  69.00    EUR  65,00
+      Supérieure (simple /double)    XOF 55 000     USD  95.00    EUR   85,00
+      Suite (simple /double)             XOF 80 000     USD 140.00   EUR  125,00
+      <b>Appartement s +petits-déjeuners</b>
+      2 chambres +salon                   XOF 100 000  USD  175.00 EUR  155,00
+      3 chambres +salon                   XOF  130 000  USD  225.00 EUR  198,00
+      <b>Après le 30 Avril 2015 (Tarifs TTC)</b>
+      <b>Chambres + petits-déjeuners</b>
+      Standard (simple / double)      XOF 50 000    USD    85.50  EUR   76,00
+      Supérieure (simple /double)    XOF 72 000    USD  125.00  EUR  110,00
+      Suite (simple /double)             XOF 100 000  USD  171.00  EUR  152,00
+      <b>Appartement s +petits-déjeuners</b>
+      2 chambres +salon                   XOF 120 000  USD  205.00  EUR  182,50
+      3 chambres +salon                   XOF  150 000  USD  256.50  EUR  228,00
+      <b>Réservations & informations complémentaires :</b>
+      Téléphone: + 225  22 44 88 89 / 07 74 05 51
+      E-mail: hotelhorizon@hotmail.com
+      Copies obligatoires: leslie@semiweb.ca  &  congrespabs2015@gmail.com
 
-      <b>fax:</b> + 225 22 43 05 44
-
-      <b>site web:</b> <a href="http://www.golfhotel-ci.com">www.golfhotel-ci.com</a>
   logo: "Logos afr2 .jpg"
   abstract:
     new_title: "soumettre un abstract"
+    new_description: "Si vous avez des problemes avec la soumission, cliquez ici <a href='mailto:leslie@semiweb.ca'>leslie@semiweb.ca</a> pour soumettre votre document au format Word"
     successful_creation: "Opération effectuée avec succès"
     text_max_size: "Maximum 200 mots. Veuillez inclure l'objectif/background, la méthodologie, les résultats, la conclusion."
 

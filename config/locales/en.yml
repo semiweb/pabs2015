@@ -68,22 +68,45 @@ en:
         attend_to_ebc: 'EBC Interburns course'
         attend_to_isbi: 'ISBI course'
   hotel_modal:
-    title: "about the hotel"
+    title: "Hotel Accommodation Rates"
     content: |
-      <b>address:</b>
-      Hotel du Golf /Abidjan/Riviera 08
-      BP18/Abidjan 08
+      <b>HEDEN GOLF HOTEL (CONGRESS SITE)</b>
+      Superior Room + Breakfast (Rate valid until date of the Congress)
+      Simple             XOF  80 000     USD  140.00             EUR  125,00
+      Double            XOF  89 000     USD  155.00             EUR  140,00
+      For Reservations & Further Information :
+      <b>Téléphone:</b> +225 22 43 74 00
+      <b>E-mail:</b> resagolf@iroko.ci or hedengolfhotel@iroko.ci
+      <b>Please copy:</b> leslie@semiweb.ca & congrespabs2015@gmail.com
+      <b>website:</b> <a href="www.hedengolfhotel.com">www.hedengolfhotel.com</a>
 
-      <b>e-mail:</b> golfhotel@golfhotel.ci.com
+      <hr/>
 
-      <b>phone:</b> + 225 22 43 10 44/45
-
-      <b>fax:</b> + 225 22 43 05 44
-
-      <b>website:</b> <a href="http://www.golfhotel-ci.com">www.golfhotel-ci.com</a>
+      <b>HOTEL HORIZON</b>
+      <b>Before April 30, 2015</b>
+      <b>Superior Room + Breakfast</b>
+      Standard (simple / double)      XOF 40 000     USD  69.00    EUR  65,00
+      Superior (simple /double)        XOF 55 000     USD  95.00    EUR   85,00
+      Suite (simple /double)             XOF 80 000     USD 140.00   EUR  125,00
+      <b>Apartment s +Breakfast</b>
+      2 rooms +salon                        XOF 100 000  USD  175.00 EUR  155,00
+      3 rooms +salon                        XOF  130 000  USD  225.00 EUR  198,00
+      <b>After April 30, 2015</b>
+      <b>Superior Room + Breakfast</b>
+      Standard (simple / double)      XOF 50 000    USD    85.50  EUR   76,00
+      Superior (simple /double)        XOF 72 000    USD  125.00  EUR  110,00
+      Suite (simple /double)             XOF 100 000  USD  171.00  EUR  152,00
+      <b>Apartment s +Breakfast</b>
+      2 rooms +salon                        XOF 120 000  USD  205.00  EUR  182,50
+      3 rooms +salon                        XOF  150 000 USD  256.50  EUR  228,00
+      <b>Reservations & further information:</b>
+      Telephone: + 225  22 44 88 89 / 07 74 05 51
+      E-mail: hotelhorizon@hotmail.com
+      Please copy: leslie@semiweb.ca  &  congrespabs2015@gmail.com
   logo: "Logos afr1 .jpg"
   abstract:
     new_title: "submit an abstract"
+    new_description: "If you are having difficulty uploading your abstract, click here <a href='mailto:leslie@semiweb.ca'>leslie@semiweb.ca</a> to submit your Word document to the Congress Admin"
     successful_creation: "Abstract successfully created"
     text_max_size: "Maximum 200 words, approximately 1 page. Please include aim/background, methodology, results, conclusion."
 

@@ -244,3 +244,7 @@ input:focus {
 .field_with_errors label {
     color: #970e16;
 }
+
+.modal-sm {
+    width: 600px !important;
+}
