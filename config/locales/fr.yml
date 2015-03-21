@@ -129,7 +129,7 @@ fr:
 
   logo: "Logos afr2 .jpg"
   abstract:
-    new_title: "soumettre un abstract"
+    new_title: "Soumettre un abstract avant le 15 avril 2015"
     new_description: "Si vous avez des problemes avec la soumission, cliquez ici <a href='mailto:leslie@semiweb.ca'>leslie@semiweb.ca</a> pour soumettre votre document au format Word"
     successful_creation: "Opération effectuée avec succès"
     text_max_size: "Maximum 200 mots. Veuillez inclure l'objectif/background, la méthodologie, les résultats, la conclusion."

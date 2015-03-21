@@ -112,7 +112,7 @@ fr:
                                         <br/>- tous les aspects des soins aux  brûlés et
                                         <br/>- la prévention.
                                         <br/>Ce cours est ouvert aux médecins et infirmièr(e)s de toutes les spécialités, qui sont en charge de brûlés (voir aussi : <a href='www.interburns.org'>www.interburns.org</a>)"
-    alert_info: "Cliquez ici pour soumettre vos Abstract après le 1er décembre 2014"
+    alert_info: "Cliquez ici pour soumettre votre abstract avant le 15 Avril 2015 Date limite"
   history:
     title: "Bref historique de la Société Panafricaine des Brûlures"
     text1: |
@@ -230,8 +230,8 @@ fr:
         - Attestations de présence et Certificats de présentation
         - Participation au cours du Interburns "Soins de brûlure essentielle" et ISBI "Delà des premières 48 heures"
       table:
-        early: Précoces
-        late: Tardives
+        early: L'inscription hâtive se termine Avril 30, 2015
+        late: Frais d'enregistrement tardif
         local_participants: Locaux & africains
         foreign_participants: Non africains
         physicians: Médecins
