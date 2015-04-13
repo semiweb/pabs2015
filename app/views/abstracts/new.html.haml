@@ -1,3 +1,6 @@
+- if Date.current > Date.new(2015, 04, 15)
+  .alert.fade.in.alert-danger= t('abstract.delay_expired')
+
 %h1= t('abstract.new_title')
 %p= t('abstract.new_description').html_safe
 = form_for @abstract, :url => {:action => 'create'} do |f|
