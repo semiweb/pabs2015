@@ -79,14 +79,16 @@ en:
       Steering Committee Members:
       Marie Helene Chomienne, Julie Boulianne, Brigitte Vilasco, Hemou Pitchaki, Jibril Toguyeni, Laura Hawryluck, Amr Moghazy, Shahla Yekta, Charles St-Onge, Niels Ravn, Marc Saint-Onge, Marc Jacques Dubois, Fernand Patry, Marie Helene Sainte Hilaire, Maria Calandriello, Leslie Webb, Redouane Bouali.
   view_the_program:
-    preliminary_themes: "Preliminary themes of the scientific program:"
+    download_link_title: View detailed program here
+    download_planning: Download the planning as an Excel file
+    preliminary_themes: "Themes of the scientific program:"
     theme_list:
       epidemiology_of_burns_in_africa_and_around_the_world: "Epidemiology and Prevention of Burns in Africa and around the world"
       rehabilitation: "Rehabilitation/Physiotherapy/Reintegration"
       end_of_life_palliative_care_and_spirituality: "End of Life/Palliative Care/Spirituality"
       wound_care: "Wound Care/Surgery and Procedures"
       other: "Education and Scientific Papers"
-    preliminary_activities: "Preliminary activities of the scientific program:"
+    preliminary_activities: "Activities of the scientific program:"
     activities_list:
       poster_presentations: "Poster presentations"
       oral_presentations: "Oral presentations"
@@ -157,7 +159,7 @@ en:
       The visa applicant must take a mandatory appointment online at: www.rdvvisas-ci.com
       The required documents are</b>:<ul><li>The original receipt of payment online;</li><li>The certificate of making appointments;</li><li>The completed visa application completed and signed;</li><li>A photo ID (size 50 mm x 70 mm);</li><li>A Passport valid for six months at least + the photocopy of the first three pages;</li><li>The international vaccination certificate valid. The vaccination is checked on arrival;</li><li>A photocopy of the travel ticket (round trip) as proof of booking airfare.</li></ul>
       As applicable, include the following documents:<ul><li>tourism visa<ul><li>Letter of invitation (to ask the organizing committee at registration);</li><li>Confirmation of hotel booking;</li></ul></li><li>visa for private tour & Mission (*)</li><ul><li>Letter of invitation (to ask the organizing committee at registration);</li><li>Confirmation of hotel booking;</li><li>Mission Order *.</li></ul></ul>
-      Since January 2014, you can get a biometric visa (e-visa) at Felix Houphouet Boigny International Airport in Abidjan with mandatory prior to departure formalities pre-enrollment indicated on the website <a href="www.snedai.com">www.snedai.com</a> but  it's nevertheless best to arrive with a visa obtained prior to departure !
+      Since January 2014, you can get a biometric visa (e-visa) at Felix Houphouet Boigny International Airport in Abidjan with mandatory prior to departure formalities pre-enrollment indicated on the website <a href="http://www.snedai.com" target="_blank">www.snedai.com</a> but  it's nevertheless best to arrive with a visa obtained prior to departure !
     title9: "VACCINATION & MEDICAL INFORMATION"
     text11: |
       <b>Inoculation against yellow fever</b> is compulsory, done at least 10 days before departure.

@@ -1,4 +1,4 @@
-- if Date.current > Date.new(2015, 04, 15)
+- if Date.current > Date.new(2015, 04, 15) && flash[:error].blank?
   .alert.fade.in.alert-danger= t('abstract.delay_expired')
 
 %h1= t('abstract.new_title')

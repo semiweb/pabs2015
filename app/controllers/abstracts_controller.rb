@@ -15,7 +15,7 @@ class AbstractsController < ApplicationController
     end
     if Date.current > Date.new(2015, 04, 15)
       flash[:error] ||= []
-      flash[:error] << t('abstract.delay_expired')
+      flash[:error] << "#{t('abstract.delay_expired_thanks')} #{t('abstract.delay_expired')}"
     end
     redirect_to action: :new
   end

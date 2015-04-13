@@ -86,7 +86,9 @@ fr:
       Comité de  Pilotage des initiatives Ouest Africaines :
       Marie Helene Chomienne, Julie Boulianne, Brigitte Vilasco, Hemou Pitchaki, Jibril Toguyeni, Laura Hawryluck, Amr Moghazy, Shahla Yekta, Charles St-Onge, Niels Ravn, Marc Saint-Onge, Marc Jacques Dubois, Fernand Patry, Marie Helene Sainte Hilaire, Maria Calandriello, Leslie Webb, Redouane Bouali.
   view_the_program:
-    preliminary_themes: "Thèmes préliminaires du programme scientifique:"
+    download_link_title: Voir le programme détaillé ici
+    download_planning: Télécharger l'agenda en version Excel
+    preliminary_themes: "Thèmes du programme scientifique:"
     theme_list:
       rehabilitation: "Réhabilitaton/Physiothérapie/Réintégration"
       wound_care: "Soins des plaies / Procédures chirurgicales"
@@ -94,7 +96,7 @@ fr:
       epidemiology_of_burns_in_africa_and_around_the_world: "Epidemiologie & Prevention des brûlures en Afrique et à travers le monde"
       end_of_life_palliative_care_and_spirituality: "Approche à la fin de vie / spiritualité / soutien psychosocial"
       other: "Formation & Publication Scientifique"
-    preliminary_activities: "Activities préliminaires du programme scientifique"
+    preliminary_activities: "Activities du programme scientifique"
     activities_list:
       poster_presentations: "Presentations d’affichées sur les thèmes et libres"
       oral_presentations: "Présentations orales"
@@ -193,7 +195,7 @@ fr:
       L’opération de délivrance de visas se fait exclusivement auprès des Services Consulaires des représentations diplomatiques de la Côte d’Ivoire à l’étranger, ou sur le site de la SNEDAI www.snedai.ci. Le demandeur du visa doit prendre un rendez-vous obligatoire en ligne sur le site : www.rdvvisas-ci.com
       <b>Les pièces à fournir</b> :<ul><li>l’original du reçu de paiement effectué en ligne ;</li><li>l’attestation de prise de rendez-vous ;</li><li>le formulaire de demande de visa dûment rempli et signé ;</li><li>une photo d’identité (format 50 mm x 70 mm) ;</li><li>le passeport en cours de validité pour six mois minimum + la photocopie des trois premières pages ;</li><li>le certificat international de vaccinations en cours de validité. Le carnet de vaccination est contrôlé à l'arrivée</li><li>une photocopie du titre de voyage aller/retour ou une attestation détaillée de réservation de billet d’avion.</li></ul>
       As applicable, include the following documents:<ul><li><b>Visa tourisme</b><ul><li>Confirmation de réservation d’hôtel ;</li><li>Justificatif de moyens financiers pour le séjour</li></ul></li><li><b>Visa pour visite privée & mission (*)</b><ul><li>Lettre d’invitation (à demander au comité d’organisation lors de l’inscription)</li><li>Confirmation de réservation d’hôtel</li><li>Ordre de mission*</li></ul></li></ul>
-      Depuis janvier 2014, vous pouvez obtenir un visa biométrique (e-visa) à l'Aéroport International Félix Houphouët  Boigny d'Abidjan en ayant obligatoirement effectué avant votre départ les formalités de pré-enrôlement indiquées sur le site www.snedai.com mais <b>il est néanmoins préférable d’arriver avec le visa obtenu avant le départ</b>.
+      Depuis janvier 2014, vous pouvez obtenir un visa biométrique (e-visa) à l'Aéroport International Félix Houphouët  Boigny d'Abidjan en ayant obligatoirement effectué avant votre départ les formalités de pré-enrôlement indiquées sur le site <a href="http://www.snedai.com" target="_blank">www.snedai.com</a> mais <b>il est néanmoins préférable d’arriver avec le visa obtenu avant le départ</b>.
     title9: "VACCINATION & MESURES SANITAIRES"
     text11: |
       Le <b>vaccin contre la fièvre jaune est obligatoire</b>, à faire au moins 10 jours avant le départ.

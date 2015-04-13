@@ -129,7 +129,8 @@ fr:
 
   logo: "Logos afr2 .jpg"
   abstract:
-    delay_expired: Veuillez noter que la date limite de votre soumission est passée
+    delay_expired_thanks: Merci pour votre soumission.
+    delay_expired: Comme il est maintenant passé la date limite de soumission, votre résumé peut ou non être considéré pour la présentation.
     new_title: "Soumettre un abstract avant le 15 avril 2015"
     new_description: "Si vous avez des problemes avec la soumission, cliquez ici <a href='mailto:leslie@semiweb.ca'>leslie@semiweb.ca</a> pour soumettre votre document au format Word"
     successful_creation: "Opération effectuée avec succès"
